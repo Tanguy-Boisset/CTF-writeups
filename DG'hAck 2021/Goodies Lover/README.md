@@ -12,7 +12,7 @@
 
 Après avoir visité et discuté au stand de la DGA, on reçoit plusieurs goodies, dont un beau sous-verre. Quand on le retourne, on remarque plusieurs éléments qui pourraient nous laisser penser qu'un message est caché.
 
-**AJOUTER PHOTO**
+![photo_goodies](goodies.jpg)
 
 On remarque :
  - Le contour du sous-verre a un motif irregulier assez étrange
@@ -37,7 +37,7 @@ Il n'empêche que les chaîne de caractères ne sont pas exploitables en soi... 
 
 Alors on tente, on sort LibreOffice Impress puis on dessine des petites barres de largeur variable. Voici le chef-d'oeuvre :
 
-**AJOUTER CODE-BARRE**
+![code_barre](code_bare.png)
 
 Puis on passe l'image sur le site : https://products.aspose.app/barcode/fr/recognize
 
