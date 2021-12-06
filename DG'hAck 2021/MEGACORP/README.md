@@ -21,7 +21,7 @@ On commence par filtrer les logs selon les échecs d'authentification (log event
 
 En filtrant selon `agent.name = DK2021001`, on observe vers 16h10 une activité très suspecte : un fichier nommé `microsoft.exe` est téléchargé et exécuté dans le dossier `C:\Users\Public\`. Ce nom n'est pas un nom normal et surtout le dossier dans lequel il est présent laisse penser à un malware.
 
-![microsoft.exe](MG1\ microsoft.exe.png)
+![microsoft.exe]("MG1 microsoft.exe.png")
 
 En effet, quand on regarde la suite des logs, on remarque que `microsoft.exe` est exécuté en boucle.
 
