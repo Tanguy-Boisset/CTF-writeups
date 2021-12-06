@@ -21,7 +21,7 @@ Il est donc possible de tester sa répartition d'élèves en lançant la command
 À noter qu'il n'est pas obligatoire de passer par un fichier json pour tester sa répartition. En modifiant `score.py`, on peut simplement tester sur des listes.
 
 
-## Stratégie
+## Stratégie
 
 Quand on voit l'énoncé, on pense rapidement au [problème des mariages stables](https://fr.wikipedia.org/wiki/Probl%C3%A8me_des_mariages_stables).
 
