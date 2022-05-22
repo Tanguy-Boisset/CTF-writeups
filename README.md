@@ -7,7 +7,7 @@ Root Me : 4600 pts / TOP 1000\
 TryHackMe : TOP 3%
 
 ### Concours individuels : 
-DG'hAck 2021 : 60 / 900 en classement général - 26 / 600 en classement étudiant
+DG'hAck 2021 : 60 / 900 en classement général - 26 / 600 en classement étudiant\
 CUCTF 2022 : 23e\
 FCSC 2022 : 69e (catégorie senior)
 
