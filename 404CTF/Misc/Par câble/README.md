@@ -1,6 +1,8 @@
 Par câble
-999
+
 Un de nos agents a réussi à acquérir les tensions qui passaient à travers un câble de communication de Hallebarde. Pouvez-vous interpréter le signal ?
+
+======================================================================================
 
 ça marche avec les changements de fronts : on converti en binaire avec le script et on obtient :
 
