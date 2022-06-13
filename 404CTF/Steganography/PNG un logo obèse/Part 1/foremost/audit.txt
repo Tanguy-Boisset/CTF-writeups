@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon May 16 10:06:18 2022
+Invocation: foremost -i /app/uploads/0b857ea233668112f90f8116c5ad557e/image.png -o /app/uploads/0b857ea233668112f90f8116c5ad557e/foremost 
+Output directory: /app/uploads/0b857ea233668112f90f8116c5ad557e/foremost
+Configuration file: 
+------------------------------------------------------------------
+File: /app/uploads/0b857ea233668112f90f8116c5ad557e/image.png
+Start: Mon May 16 10:06:18 2022
+Length: 513 KB (526331 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000059.zip 	     484 KB 	      30474 	 
+1:	00000000.png 	      29 KB 	          0 	  (1103 x 319)
+Finish: Mon May 16 10:06:18 2022
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon May 16 10:06:18 2022
