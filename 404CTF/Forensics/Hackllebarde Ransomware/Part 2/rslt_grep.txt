@@ -1,0 +1,746 @@
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-wal
+^https://([A-Za-z0-9-]{1,63}\.)+demos\.corp\.google\.com(/(?!url\b)|$)|^https://([A-Za-z0-9-]{1,63}\.)+sslproxy\.corp\.google\.com(/|$)|^https?://(([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|proxy\.googleprod\.com|c\.googlers\.com|proxy\.googlers\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|currents\.google\.com|mail\.google\.com|youtube\.com|youtube\-nocookie\.com|youtubekids\.com)[.]?(:[0-9]+)?/|([A-Za-z0-9-]{1,63}\.)*(sandbox\.google\.com)(:[0-9]+)?(/(?!url\b)|$))
+(function(f){var d=window.AmazonUIPageJS||window.P,q=d._namespace||d.attributeErrors,h=q?q("ShareWidgetTriggerAssets",""):d;h.guardFatal?h.guardFatal(f)(h,window):h.execute(function(){f(h,window)})})(function(f,d,q){f.now("tafShareOnNetwork").execute(function(d){"undefined"!==typeof d?f.log("tafShareOnNetwork is already registered","WARN","ShareWidgetTriggerAssets"):f.when("A","socialShareUtil").register("tafShareOnNetwork",function(c,a){var d={facebook:{shareEndpoint:"https://www.facebook.com/dialog/share",
+params:function(b){return{href:a.decodeEntities(b.url),display:"popup",quote:b.quote?a.decodeEntities(b.quote):"",app_id:"465632727431967"}},ref:"fb",height:450,width:700,isWebShare:!0},pinterest:{shareEndpoint:"https://www.pinterest.com/pin/create/button",params:function(b){return{url:a.decodeEntities(b.url),media:a.decodeEntities(b.image),description:a.decodeEntities(b.description)}},ref:"pi",height:620,width:700,isWebShare:!0},line:{shareEndpoint:"https://social-plugins.line.me/lineit/share",params:function(b){var c=
+a.decodeEntities(b.title)+" "+a.decodeEntities(b.description);b=a.decodeEntities(b.url);return{text:c,url:b}},ref:"li",height:620,width:700,isWebShare:!0},twitter:{shareEndpoint:"https://twitter.com/intent/tweet",params:function(b){var c=a.decodeEntities(b.title);b=a.decodeEntities(b.url);if(c){var d=b?Math.min(b.length,20):-1;200<c.length+d+1&&(c=c.substring(0,200-(d+1+3))+"...")}return{text:c,url:b}},ref:"tw",height:470,width:670,isWebShare:!0},email:{shareEndpoint:"mailto:",params:function(b){return{subject:a.decodeEntities(b.title),
+sr:"AmazonShowroom",gr:"GiftRegistry",as:"AlexaSkills",dl:"Deal",dp:"DetailPage",qv:"Search",br:"BabyRegistry",al:"AmazonLive",ao:"Voltron",bc:"AmazonBookClub"},l=g(),h=b.url,f=h.split("/");if(b.network)a=b.network;else if(b.sharingType){var n=b.sharingType.replace(/['"]+/g,"");k.ios?a=n:d[n]&&(a=d[n])}b=e[b.refId]?e[b.refId]:"unknown";d=new RegExp(/^([a-zA-Z0-9]){10}$/);for(e=f.length-1;1<=e;e--)if(f[e].match(d)){c=f[e];break}h=h.match(new RegExp(/^https:\/\/www.amazon./))?f[0]+"/"+f[1]+"/"+f[2]:
+.S.......[tlsflags0x00000000]encrypted-tbn2.gstatic.com:443^partitionKey=%28https%2Cyoutube.com%29
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/6066-69db956e71a0a8ad.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://cdn-eu.realytics.net/realytics-1.2.min.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/7745-a110b67ed24d72c6.js
+https://snapchat.com^partitionKey=%28https%2Cleboncoin.fr%29
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.googletagmanager.com/gtag/js?id=DC-9981794&l=dataLayer&cx=c
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.googletagmanager.com/gtag/js?id=DC-9981794
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://cdn.ampproject.org/rtv/012203150226000/v0/amp-analytics-0.1.mjs
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.googleadservices.com/pagead/conversion_async.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://profile-api-lbc.trust-pro.mpi-internal.com/profile/sdrn:leboncoin:user:d431fe70-75e6-4a3c-a03c-2b849d321ee0
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+http://ocsp.digicert.com0K
+:http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl0=
+https://www.digicert.com/CPS0
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Soccer.svg/35px-Soccer.svg.png
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kit_left_arm.svg/31px-Kit_left_arm.svg.png
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kit_right_arm.svg/31px-Kit_right_arm.svg.png
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kit_body.svg/38px-Kit_body.svg.png
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kit_socks_long.svg/100px-Kit_socks_long.svg.png
+https:lbcwf.frontend.weborama.fr:443:lbcwf.frontend.weborama.fr:443::n:1651937039:h3:y:1649338649:n:^partitionKey=%28https%2Cleboncoin.fr%29:|n:y:
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Soccer.svg/24px-Soccer.svg.png
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://fr.wikipedia.org/wiki/Eva_Carri%C3%A8re
+O^partitionKey=%28https%2Camazon.fr%29,::https://images-eu.ssl-images-amazon.com/images/G/08/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937816_.png
+http://ocsp.pki.goog/gtsr100
+$http://pki.goog/repo/certs/gtsr1.der04
+#http://crl.pki.goog/gtsr1/gtsr1.crl0W
+https://pki.goog/repository/0
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2
+https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKOzY.woff2
+https:encrypted-tbn0.gstatic.com:443:encrypted-tbn0.gstatic.com:443::n:1651931166:h3:y:1649338649:n:^partitionKey=%28https%2Cyoutube.com%29:|n:y:
+https:lh6.googleusercontent.com:443:lh6.googleusercontent.com:443::n:1651934766:h3:y:1649342581:n:^partitionKey=%28https%2Cyoutube.com%29:|n:y:
+https:rr5---sn-25glen7l.googlevideo.com:443:rr5---sn-25glen7l.googlevideo.com:443::n:1651936003:h3:y:1649343974:n:^partitionKey=%28https%2Cyoutube.com%29:|n:y:
+https:connect.facebook.net:443:connect.facebook.net:443::n:1649425491:h3:y:1649338649:n:^partitionKey=%28https%2Cnike.com%29:|n:y:
+https:lh4.googleusercontent.com:443:lh4.googleusercontent.com:443::n:1651933152:h3:y:1649341107:n:^partitionKey=%28https%2Cyoutube.com%29:|n:y:
+https:www.facebook.com:443:www.facebook.com:443::n:1649424062:h3:y:1649337342:n:^partitionKey=%28https%2Cfacebook.com%29:|n:y:
+http://ocsp.pki.goog/gtsr100
+$http://pki.goog/repo/certs/gtsr1.der04
+#http://crl.pki.goog/gtsr1/gtsr1.crl0W
+https://pki.goog/repository/0
+http://ocsp.pki.goog/gsr10)
+http://pki.goog/gsr1/gsr1.crt02
+!http://crl.pki.goog/gsr1/gsr1.crl0;
+https://www.youtube.com
+https://www.youtube.com
+var m=this||self,w=function(a){return a};var x;var z=function(a,b,c){this.g=c===y?a:""};z.prototype.toString=function(){return this.g.toString()};var y={};var C=function(a,b){var c=void 0===c?{}:c;this.error=a;this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror";this.meta=c};var D=function(a){D[" "](a);return a};D[" "]=function(){};var E=/^(?:([^:/?#.]+):)?(?:\/\/(?:([^\\/?#]*)@)?([^\\/?#]*?)(?::([0-9]+))?(?=[\\/?#]|$))?([^?#]+)?(?:\?([^#]*))?(?:#([\s\S]*))?$/;var I=function(a,b){if(a)for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(void 0,a[c],c,a)};var J=/^https?:\/\/(\w|-)+\.cdn\.ampproject\.(net|org)(\?|\/|$)/,K=function(a,b){this.g=a;this.h=b},L=function(a,b){this.url=a;this.j=!!b;this.depth=null};var M=function(a){m.google_image_requests||(m.google_image_requests=[]);var b=m.document.createElement("img");b.src=a;m.google_image_requests.push(b)};var N=function(){this.i="&";this.h={};this.o=0;this.g=[]},O=function(a,b){var c={};c[a]=b;return[c]},U=function(a,b,c,d,g){var e=[];I(a,function(f,k){(f=T(f,b,c,d,g))&&e.push(k+"="+f)});return e.join(b)},T=function(a,b,c,d,g){if(null==a)return"";b=b||"&";c=c||",$";"string"==typeof c&&(c=c.split(""));if(a instanceof Array){if(d=d||0,d<c.length){for(var e=[],f=0;f<a.length;f++)e.push(T(a[f],b,c,d+1,g));return e.join(c[d])}}else if("object"==typeof a)return g=g||0,2>g?encodeURIComponent(U(a,b,c,d,g+1)):"...";return encodeURIComponent(String(a))},W=function(a){var b="https://pagead2.googlesyndication.com/pagead/gen_204?id=jserror&",c=V(a)-27;if(0>c)return"";a.g.sort(function(n,A){return n-A});for(var d=null,g="",e=0;e<a.g.length;e++)for(var f=a.g[e],k=a.h[f],l=0;l<k.length;l++){if(!c){d=null==d?f:d;break}var h=U(k[l],a.i,",$");if(h){h=g+h;if(c>=h.length){c-=h.length;b+=h;g=a.i;break}d=null==d?f:d}}a="";null!=d&&(a=g+"trn="+d);return b+a+""},V=function(a){var b=1,c;for(c in a.h)b=c.length>b?c.length:b;return 3997-b-a.i.length-1};var X=function(a){if(.01>Math.random())try{if(a instanceof N)var b=a;else b=new N,I(a,function(d,g){var e=b,f=e.o++;d=O(g,d);e.g.push(f);e.h[f]=d});var c=W(b);c&&M(c)}catch(d){}};var Y=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(g){b=c}}return b};var aa=/^([^;]+);(\d+);([\s\S]*)$/,ba=function(){var a=window.name,b=aa.exec(a);if(null===b)throw Error("Cannot parse serialized data. "+a.substring(0,50));a=+b[2];var c=b[3];if(a>c.length)throw Error("Parsed content size doesn't match. "+a+":"+c.length);return{m:b[1],content:c.substr(0,a),l:c.substr(a)}};var Z=null,da=function(a){var b=a.length,c=3*b/4;c%3?c=Math.floor(c):-1!="=.".indexOf(a[b-1])&&(c=-1!="=.".indexOf(a[b-2])?c-2:c-1);var d=new Uint8Array(c),g=0;ca(a,function(e){d[g++]=e});return d.subarray(0,g)},ca=function(a,b){function c(l){for(;d<a.length;){var h=a.charAt(d++),n=Z[h];if(null!=n)return n;if(!/^[\s\xa0]*$/.test(h))throw Error("Unknown base64 encoding at char: "+h);}return l}ea();for(var d=0;;){var g=c(-1),e=c(0),f=c(64),k=c(64);if(64===k&&-1===g)break;b(g<<2|e>>4);64!=f&&(b(e<<4&240|f>>2),64!=k&&b(f<<6&192|k))}},ea=function(){if(!Z){Z={};for(var a="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),b=["+/=","+/","-_=","-_.","-_"],c=0;5>c;c++)for(var d=a.concat(b[c].split("")),g=0;g<d.length;g++){var e=d[g];void 0===Z[e]&&(Z[e]=g)}}};(function(a){if(window.name){var b=function(e){try{var f=new N;f.g.push(1);f.h[1]=O("context",507);e.error&&e.meta&&e.id||(e=new C(e,{message:Y(e)}));if(e.msg){var k=e.msg.substring(0,512);f.g.push(2);f.h[2]=O("msg",k)}var l=[e.meta||{}];f.g.push(3);f.h[3]=l;l=m;k=[];e=null;do{var h=l;try{var n;if(n=!!h&&null!=h.location.href)b:{try{D(h.foo);n=!0;break b}catch(B){}n=!1}var A=n}catch(B){A=!1}if(A){var r=h.location.href;e=h.document&&h.document.referrerx
+https://www.leboncoin.fr/ameublement/2142851475.htm
+^partitionKey=%28https%2Cleboncoin.fr%29
+https://tpc.googlesyndication.com/safeframe/1-0-38/js/ext.js
+-Vegeu https://www.catcert.net/verCIC-1  (c)031!0
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://profile-api-lbc.trust-pro.mpi-internal.com/profile/sdrn:leboncoin:user:d431fe70-75e6-4a3c-a03c-2b849d321ee0
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]i.ytimg.com:443 <ROUTE-via i.ytimg.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]i.ytimg.com:443 <ROUTE-via i.ytimg.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+O^partitionKey=%28https%2Cyoutube.com%29,::https://i.ytimg.com/vi/u2UPHRnLDx0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD_h6xdbKZy-Ff-l8JbUKIiMMj00w
+https://i.ytimg.com/vi/1D5cxbDbKMc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAudhKRvkz_ijtPhgi78mWRBqeEGQ
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://i.ytimg.com/vi/1D5cxbDbKMc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAudhKRvkz_ijtPhgi78mWRBqeEGQ
+.S.......[tlsflags0x00000000]rr1---sn-25glen7y.googlevideo.com:443 <ROUTE-via rr1---sn-25glen7y.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://incoming.telemetry.mozilla.org/submit/telemetry/f295a1a5-2802-47fc-ac7b-371026b0dc56/main/Firefox/98.0.2/release/20220322144853?v=4
+.S.......[tlsflags0x00000000]rr1---sn-25glen7y.googlevideo.com:443 <ROUTE-via rr1---sn-25glen7y.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://i.ytimg.com/vi/ZbZSe6N_BXs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBGoKEt2dKruBwX4rBkx8zfFx6dDQ
+:https://i.ytimg.com/vi/ZbZSe6N_BXs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBGoKEt2dKruBwX4rBkx8zfFx6dDQ
+O^partitionKey=%28https%2Cyoutube.com%29,:https://i.ytimg.com/vi/ZbZSe6N_BXs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBGoKEt2dKruBwX4rBkx8zfFx6dDQ
+https://extensions.gnome.org/extension/1392/you2ber/
+https://extensions.gnome.org/
+https://extensions.gnome.org/extension-data/screenshots/screenshot_1393_zbVXz1i.png
+https://extensions.gnome.org/extension/1393/convenient-access-to-files/
+https://extensions.gnome.org/
+https://extensions.gnome.org/extension-data/screenshots/screenshot_1394.png
+https://extensions.gnome.org/extension/1394/location-icon-hide/
+https://extensions.gnome.org/
+http://www.freedesktop.org/wiki/Soft
+    AND (SUBSTR(url, 1, 6) == "https:"
+      OR SUBSTR(url, 1, 5) == "http:")
+https://incoming.telemetry.mozilla.org/submit
+https://getpocket.com/firefox/new_tab_learn_more
+https://getpocket.com/recommendations
+https://firefox-settings-attachments.cdn.mozilla.net/
+https://fr.wikipedia.org/wiki/La_Vie_de_saint_L%C3%A9ger
+https://fr.wikipedia.org/static/favicon/wikipedia.ico
+https://fr.wikipedia.org/static/apple-touch/wikipedia.png
+https://cstatic.weborama.fr/iframe/sync.html?key=ids_sync&wamid=2510&src=wamf.wildcard.js&ref=www.leboncoin.fr&d.r=1649345030163&gdpr=1&gdpr_consent=CPW80EAPW80EAAHABBENCJCgAP_AAHLAAAAAIAtB_G_dTyPi-f59YvtwYQ1P4VQnoyACjgaNgwwJiRLBMI0EgmAIKAHqAAACIBAEICJAAQBlCAHAAAAA4IEAASMMAAAAIBAIIgCAAEAAAmJICABZC5AAAQAQgkwAABQAgAICABMgSDAAAAAAFAAAAAgAAAAAAAAAAAAAQAAAAAAAAggCACYalxAA2JY4EkgaVAgARhAEAUAIAKKAIWCCAgJEAAgjAAUQAgAAAoAAAAAACAgBgAAAAEACEAAAADggEABAAgAAAAgAAgAAAAAQAAAYAAAAAABAAAAAAEABAAABQCAAAIAEABIEAAQAAAEAAAAAAAAAEAgAAAAAAAAAAAAAAACAGKAAwABBFQYABgACCKhAADAAEEVA.f_gADlgAAAAA
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.leboncoin.fr/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.leboncoin.fr/ls/data.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.leboncoin.fr/ls/data.sqlite-wal
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+api.leboncoin.fr^partitionKey=%28http%2Cleboncoin.fr%29:HSTS
+auth.leboncoin.fr^partitionKey=%28http%2Cleboncoin.fr%29:HSTS
+fr.wikipedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS
+www.facebook.com^partitionKey=%28http%2Cfacebook.com%29:HSTS
+https:encrypted-tbn0.gstatic.com:443:.:^partitionKey=%28https%2Cleboncoin.fr%29:3
+dd.leboncoin.fr^partitionKey=%28http%2Cleboncoin.fr%29:HSTS
+aax-eu.amazon.fr^partitionKey=%28http%2Camazon.fr%29:HSTS
+facebook.com^partitionKey=%28http%2Cfacebook.com%29:HSTS
+https:rr4---sn-25glen7l.googlevideo.com:443:.:^partitionKey=%28https%2Cyoutube.com%29:3
+https:yt3.ggpht.com:443:.:^partitionKey=%28https%2Cyoutube.com%29:3
+https:www.google.com:443:.:^partitionKey=%28https%2Cyoutube.com%29:3
+https:yt3.ggpht.com:443:yt3.ggpht.com:443::n:1651935990:h3:y:1649337342:n:^partitionKey=%28https%2Cyoutube.com%29:|n:y:
+https:www.gstatic.com:443:.:^partitionKey=%28https%2Cyoutube.com%29:3
+www.wikipedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS
+www.youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS
+.S.......[tlsflags0x00000000]intake-analytics.wikimedia.org:443^partitionKey=%28https%2Cwikipedia.org%29
+https://www.youtube.com/watch?v=SqKN7yOZ7pg
+https://www.youtube.com/
+https://www.youtube.com/
+https://static.doubleclick.net/
+https://www.youtube.com/
+https://www.youtube.com/watch?v=3Kq1MIfTWCE
+https://www.youtube.com/watch?v=3Kq1MIfTWCE
+https://www.youtube.com/watch?v=SqKN7yOZ7pg
+https://www.youtube.com/watch?v=SqKN7yOZ7pg
+https://fonts.googleapis.com/
+https://r5---sn-25glen7l.googlevideo.com/
+https://www.youtube.com/watch?v=3Kq1MIfTWCE
+https://www.youtube.com/watch?v=SqKN7yOZ7pg
+https://www.youtube.com/
+https://www.youtube.com/sw.js
+https://jnn-pa.googleapis.com/
+https://www.google.fr/
+https://www.youtube.com/watch?v=3Kq1MIfTWCE
+<p>Obsolete and final release as of 3.8. https://bugzilla.gnome.org/show_bug.cgi?id=696793 Click to read more. Quickly launch Network Connections from the Network Menu. Having to find and launch Network Connections to edit or remove WiFi connections can be pesky, but this should help ease that frustration. This requires nm-connection-editor be installed first if it is not already, to find out if it is installed just run nm-connection-editor from a terminal</p><p>As of 3.8 this will no longer be updated as most of this functionality  has made it to the gnome-control-center network panel. Unless there are big enough regressions in that panel, there will be no use for this, as discussed with reviewers.</p>
+ https:/A
+O^partitionKey=%28https%2Camazon.fr%29,::https://fls-eu.amazon.fr/1/batch/1/OP/A13V1IB3VIYZZH:260-3601115-4731056:Q2EW8K4YWF59TXC0ZG7J$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.224715.0%26id%3DQ2EW8K4YWF59TXC0ZG7J%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D206%26pc%3D4371%26at%3D4371%26t%3D1649345005280%26bfnt%3D1%26nrbf%3D0%26bft%3D1%26pty%3DDealLandingPage%26spty%3DOctopusDLPV3%26pti%3Dundefined%26tid%3DQ2EW8K4YWF59TXC0ZG7J%26aftb%3D1:4370
+http://x1.i.lencr.org/0'
+http://x1.c.lencr.org/0"
+https://extensions.gnome.org/extension/15/alternatetab/
+https://extensions.gnome.org/
+<p>Whenever there is an unread notification (e.g. chat messages), blinks the message in the user&apos;s menu with a color chosen by the user.</p><p>Now configurable (3.4+ only)!! Alert color and blink rate can be changed on settings ;)</p><p>If you have any question, be sure to take a look at the FAQ: http://goo.gl/lmwtW</p><p>Credits: The idea of painting the message on user&apos;s menu was borrowed from &apos;Pidgin Persistent Notification&apos; extension by nemo. The code itself has some parts forked from &apos;Message Notifier&apos; extension by barisione, &apos;Media player indicator&apos; extension by eon and convenience.js from git.gnome.org/gnome-shell-extensions. The blink idea and it&apos;s initial code was written by hossman. The initial gnome 3.10 support was done by Anthony25. The filtering support was done by ilgarmehmetali</p>
+<p>A simple pomodoro timer</p><p>NOTICE New versions are no longer distributed through extensions.gnome.org. Look for &quot;pomodoro&quot; in your distros repositories or grab package from http://gnomepomodoro.org</p>
+https://extensions.gnome.org/extension/16/auto-move-windows/
+https://extensions.gnome.org/
+https://extensions.gnome.org/extension-data/screenshots/screenshot_17.png
+<p>Exaile doubanfm control from gnome shell. This extension requires exaile and its douban.fm plugin installed. You can find the plugin at https://github.com/sunng87/exaile-doubanfm-plugin .</p>
+https://extensions.gnome.org/extension/15/alternatetab/
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Jacques_Guiaud_et_Jules_Didier_-_D%C3%A9part_de_Gambetta_en_ballon_place_Saint-Pierre.jpg/39px-Jacques_Guiaud_et_Jules_Didier_-_D%C3%A9part_de_Gambetta_en_ballon_place_Saint-Pierre.jpg
+="object"==typeof b&&b.Qa?b.Ka():String(b),Ge.test(b)||(b="about:invalid#zClosurez"),k=new Ee(b,He);h=_.Fe(k)}g=h}e.href=g}}catch(l){return}d&&(e.as=d);c&&e.setAttribute("nonce",c);if(a=a.getElementsByTagName("head")[0])try{a.appendChild(e)}catch(l){}};var Re=_.r,MB=function(a){var b=new v.Map([["domain",_.r.location.hostname]]);Se[3]>=Te()&&b.set("adsid",Se[1]);return ad(KB.get(a).js,b)},Se,NB,Qe=function(){Re=_.r;Se=Re.googleToken=Re.googleToken||{};var a=Te();Se[1]&&Se[3]>a&&0<Se[2]||(Se[1]="",Se[2]=-1,Se[3]=-1,Se[4]="",Se[6]="");NB=Re.googleIMState=Re.googleIMState||{};KB.has(NB[1])||(NB[1]=".google.com");Array.isArray(NB[5])||(NB[5]=[]);"boolean"!==typeof NB[6]&&(NB[6]=!1);Array.isArray(NB[7])||(NB[7]=[]);"number"!==typeof NB[8]&&(NB[8]=0)},OB=function(a){Qe();KB.has(a)&&(NB[1]=a)},Ue={Mc:function(){return 0<NB[8]},Te:function(){NB[8]++},Ue:function(){0<NB[8]&&NB[8]--},Ve:function(){NB[8]=0},eh:function(){return!1},rd:function(){return NB[5]},jd:function(a){try{a()}catch(b){_.r.setTimeout(function(){throw b;},0)}},Id:function(){if(!Ue.Mc()){var a=_.r.document,b=function(e){e=MB(e);a:{try{var f=ft("script[nonce]");break a}catch(g){}f=void 0}LB(a,e.toString(),f);f=_.ud("SCRIPT",a);f.type="text/javascript";f.onerror=function(){return _.r.processGoogleToken({},2)};db(f,e);try{(a.head||a.body||a.documentElement).appendChild(f),Ue.Te()}catch(g){}},c=NB[1];b(c);".google.com"!=c&&b(".google.com");b={};var d=(b.newToken="FBT",b);_.r.setTimeout(function(){return _.r.processGoogleToken(d,1)},1E3)}}},PB=function(a){_.r.processGoogleToken=_.r.processGoogleToken||function(b,c){var d=b;d=void 0===d?{}:d;c=void 0===c?0:c;b=d.newToken||"";var e="NT"==b,f=parseInt(d.freshLifetimeSecs||"",10),g=parseInt(d.validLifetimeSecs||"",10),h=d["1p_jar"]||"";d=d.pucrd||"";Qe();1==c?Ue.Ve():Ue.Ue();var k=Re.googleToken=Re.googleToken||{},l=0==c&&b&&"string"===typeof b&&!e&&"number"===typeof f&&0<f&&"number"===typeof g&&0<g&&"string"===typeof h;e=e&&!Ue.Mc()&&(!(Se[3]>=Te())||"NT"==Se[1]);var n=!(Se[3]>=Te())&&0!=c;if(l||e||n)e=Te(),f=e+1E3*f,g=e+1E3*g,1E-5>Math.random()&&_.vd(_.r,"https://pagead2.googlesyndication.com/pagead/gen_204?id=imerr&err="+c),k[5]=c,k[1]=b,k[2]=f,k[3]=g,k[4]=h,k[6]=d,Qe();if(l||!Ue.Mc()){c=Ue.rd();for(b=0;b<c.length;b++)Ue.jd(c[b]);c.length=0}};Ve(a)};var An=function(a,b){b=void 0===b?{}:b;this.root=b.root?b.root:null;this.o=b.rootMargin?Xe(b.rootMargin):[{value:0,type:"px"},{value:0,type:"px"},{value:0,type:"px"},{value:0,type:"px"}];this.rootMargin=We(this.o,function(c){return""+c.value+c.type}).join(" ");this.B=Ze(b.threshold);this.K=a;this.j=[];this.H=[];this.C=!1;this.m=null;this.l=rq(this.D,100,this)},QB=function(a){if(a.root)var b=$e(a.root);else{var c=_.rt(window);b={top:0,right:c.width,bottom:c.height,left:0,width:c.width,height:c.height}}a=We(a.o,function(d,e){return"px"==d.type?d.value:d.value*(e%2?b.width:b.height)/100});return{top:b.top-a[0],right:b.right+a[1],bottom:b.bottom+a[2],left:b.left-a[3],width:b.width+a[1]+a[3],height:b.height+a[0]+a[2]}},RB=function(a,b,c){if(!b||b.isIntersecting!=c.isIntersecting)return!0;var d=b.intersectionRatio,e=c.intersectionRatio;return d==e?!1:_.nf(a.B,function(f){return f<d!=f<e})};An.prototype.D=function(){var a=this,b=QB(this);_.Qp(this.j,function(c){var d=c.target,e=$e(d),f=e.width*e.height;var g=Math.max(b.top,e.top);var h=Math.min(b.right,e.right),k=Math.min(b.bottom,e.bottom),l=Math.max(b.left,e.left),n=h-l,m=k-g;g=0<=n&&0<=m?{top:g,right:h,bottom:k,left:l,width:n,height:m}:null;h=!!g;k=g?g.width*g.height:0;l=window.performance;d={boundingClientRect:e,intersectionRatio:f?k/f:h?1:0,intersectionRect:g||{top:0,bottom:0,left:0,right:0,width:0,height:0},isIntersecting:h,rootBounds:b,target:d,time:l&&l.now?l.now():0};RB(a,c.ka,d)&&a.H.push(d);c.ka=d});this.H.length&&this.K(SB(this),this)};An.prototype.observe=function(a){_.nf(this.j,function(b){return b.target==a})||(this.j.push({target:a,ka:null}),this.D(),this.C||(this.C=!0,_.hb(_.r,"scroll",this.l),_.hb(_.r,"resize",this.l),_.r.MutationObserver&&!this.m&&(this.m=new MutationObserver(this.l),this.m.observe(_.r.document,
+https://live.gnome.org/Apps/Evolution
+http://appstream.ubuntu.com/media/bionic/p/pa/padthv1.desktop/65774C8738A24E617463FA6330A4C78C/icons/128x128/padthv1_padthv1.png
+amp.js","https://yads.c.yimg.jp/js/yads.js"],"preconnect":"https://yads.yahoo.co.jp"},"yahoonativeads":{"renderStartImplemented":true},"yandex":{"prefetch":"https://yandex.ru/ads/system/context.js","preconnect":["https://yastatic.net/"],"renderStartImplemented":true},"yektanet":{"preconnect":["https://cdn.yektanet.com","https://cg-sc.yektanet.com","https://native.yektanet.com","https://nfetch.yektanet.net","https://rfetch.yektanet.net","https://scrapper.yektanet.com","https://ua.yektanet.com","https://bfetch.yektanet.com","https://mostatil.cdn.yektanet.com"],"renderStartImplemented":true},"yengo":{"renderStartImplemented":true},"yieldbot":{"prefetch":["https://cdn.yldbt.com/js/yieldbot.intent.amp.js","https://msg.yldbt.com/js/ybmsg.html"],"preconnect":"https://i.yldbt.com"},"yieldmo":{"prefetch":"https://static.yieldmo.com/ym.1.js","preconnect":["https://s.yieldmo.com","https://ads.yieldmo.com"],"renderStartImplemented":true},"yieldone":{"prefetch":"https://img.ak.impact-ad.jp/ic/pone/commonjs/yone-amp.js"},"yieldpro":{"preconnect":"https://creatives.yieldpro.eu","renderStartImplemented":true},"zedo":{"prefetch":"https://ss3.zedo.com/gecko/tag/Gecko.amp.min.js","renderStartImplemented":true},"zen":{"prefetch":"https://zen.yandex.ru/widget-loader","preconnect":["https://yastatic.net/"],"renderStartImplemented":true},"zergnet":{},"zucks":{"preconnect":["https://j.zucks.net.zimg.jp","https://sh.zucks.net","https://k.zucks.net","https://static.zucks.net.zimg.jp"]},"baidu":{"prefetch":"https://dup.baidustatic.com/js/dm.js","renderStartImplemented":true},"sulvo":{}}
+/http
+http
+http
+https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats
+https://appstream.ubuntu.com/media/bionic-updates/org/widelands/widelands.desktop/0FA42FBAE2C227CDA530B63F94F371B9/screenshots/image-1_752x452.png
+https://appstream.ubuntu.com/media/bionic-updates/org/widelands/widelands.desktop/0FA42FBAE2C227CDA530B63F94F371B9/screenshots/image-1_624x375.png
+https://appstream.ubuntu.com/media/bionic-updates/org/widelands/widelands.desktop/0FA42FBAE2C227CDA530B63F94F371B9/screenshots/image-1_224x134.png
+https://appstream.ubuntu.com/media/bionic-updates/org/widelands/widelands.desktop/0FA42FBAE2C227CDA530B63F94F371B9/screenshots/image-1_orig.png
+http://appstream.ubuntu.com/media/bionic/g/gn/gnome-system-monitor.desktop/2FEEF12821F062A3366097E316E8F4B5/screenshots/image-1_624x344.png
+https://www.leboncoin.fr/ameublement/2142851475.htm
+http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul
+https://settings.stage.mozaws.net/v1/buckets/main/collections/search-config/records
+https://fr.wikipedia.org/wiki/Sp
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+https://www.youtube.com/
+https://www.youtube.com/
+https://www.youtube.com/
+http://appstream.ubuntu.com/media/bionic/org/gnome/Software.desktop/94B1467AF3CA02CEC75D99F9AC453D07/screenshots/image-3_orig.png
+http://appstream.ubuntu.com/media/bionic/org/gnome/Software.desktop/94B1467AF3CA02CEC75D99F9AC453D07/screenshots/image-4_752x423.png
+https://www.youtube.com/watch?v=3Kq1MIfTWCE
+http aliases
+URI schemes that are considered aliases for 'http'
+https aliases
+xml version="1.0" encoding="UTF-8"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg id="svg7384" width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">  <metadata id="metadata90">   <rdf:RDF>    <cc:Work rdf:about="">     <dc:format>image/svg+xml</dc:format>     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>     <dc:title>Gnome Symbolic Icon Theme</dc:title>    </cc:Work>   </rdf:RDF>  </metadata>  <title id="title9167">Gnome Symbolic Icon Theme</title>  <g id="layer10" transform="translate(-221,-467)">   <path id="rect8463" d="m223.5 468c-1.385 0-2.5 1.115-2.5 2.5v8c0 1.385 1.115 2.5 2.5 2.5h11c1.385 0 2.5-1.115 2.5-2.5v-8c0-1.385-1.115-2.5-2.5-2.5zm0 9h11 0.5v1.5c0 0.277-0.223 0.5-0.5 0.5h-11c-0.277 0-0.5-0.223-0.5-0.5v-1.5z" style="fill:#bebebe"/>  </g> </svg> 
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' sodipodi:docname='go-previous-symbolic.svg' inkscape:export-filename='/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png' inkscape:export-xdpi='90' inkscape:export-ydpi='90' height='16' id='svg7384' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-nsHfg
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+&lt;svg xmlns:cc=&apos;http://creativecommons.org/ns#&apos; xmlns:dc=&apos;http://purl.org/dc/elements/1.1/&apos; sodipodi:docname=&apos;folder-download-symbolic.svg&apos; inkscape:export-filename=&apos;/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png&apos; inkscape:export-xdpi=&apos;90&apos; inkscape:export-ydpi=&apos;90&apos; height=&apos;16&apos; id=&apos;svg7384&apos; xmlns:inkscape=&apos;http://www.inkscape.org/namespaces/inkscape&apos; xmlns:osb=&apos;http://www.openswatchbook.org/uri/2009/osb&apos; xmlns:rdf=&apos;http://www.w3.org/1999/02/22-rdf-syntax-ns#&apos; xmlns:sodipodi=&apos;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&apos; xmlns:svg=&apos;http://www.w3.org/2000/svg&apos; version=&apos;1.1&apos; inkscape:version=&apos;0.91 r13725&apos; width=&apos;16&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos;&gt;
+        &lt;dc:type rdf:resource=&apos;http://purl.org/dc/dcmitype/StillImage&apos;/&gt;
+F-8' standalone='no'?> <!-- Created with Inkscape (http://www.inkscape.org/) -->  <svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' sodipodi:docname='folder-documents-symbolic.svg' height='16' id='svg7384' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg' inkscape:
+version='0.48.2 r9819' version='1.1' width='16' xmlns='http://www.w3.org/2000/svg'>   <metadata id='metadata90'>     <rdf:RDF>       <cc:Work rdf:about=''>         <dc:format>image/svg+xml</dc:format>         <dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/>         <dc:title>Gnome Symbolic Icon Theme</dc:title>       </cc:Work>     </rdf:RDF>   </metadata>   <sodipodi:namedview inkscape:bbox-paths='false' bordercolor='#666666' borderopacity='1' inkscape:current-layer='layer13' inkscape:cx='-191.02406' inkscape:cy='0.353506' gridtolerance='10' inkscape:guide-bbox='true' guidetolerance='10' id='namedview88' inkscape:object-nodes='false' inkscape:object-paths='false' objecttolerance='10' pagecolor='#555753' inkscape:pageopacity='1' inkscape:pageshadow='2' showborder='false' showgrid='false' showguides='true' inkscape:snap-bbox='true' inkscape:snap-bbox-midpoints='false' inkscape:snap-global='true' inkscape:snap-grids='true' inkscape:snap-nodes='false' inkscape:snap-others='false' inkscape:snap-to-guides='true' inkscape:window-height='1168' inkscape:window-maximized='1' inkscape:window-width='1600' inkscape:window-x='0' inkscape:window-y='0' inkscape:zoom='1'>     <inkscape:grid empspacing='2' enabled='true' id='grid4866' snapvisiblegridlinesonly='true' spacingx='1px' spacingy='1px' type='xygrid' visible='true'/>   </sodipodi:namedview>   <title id='title9167'>Gnome Symbolic Icon Theme</title>   <defs id='defs7386'/>   <g inkscape:groupmode='layer' id='layer9' inkscape:label='status' style='display:inline' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='layer10' inkscape:label='devices' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='layer11' inkscape:label='apps' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='layer13' inkscape:label='places' transform='translate(-481,-195.00012)'>          <path inkscape:connector-curvature='0' d='m 483.8127,196.00012 a 1.0000999,1.0000999 0 0 0 -0.8125,1 l 0,13 a 1.0000999,1.0000999 0 0 0 1,1 l 10,0 a 1.0000999,1.0000999 0 0 0 1,-1 l 0,-9.4375 a 1.0000999,1.0000999 0 0 0 -0.28125,-0.71875 l -3.5625,-3.5625 a 1.0000999,1.0000999 0 0 0 -0.71875,-0.28125 l -6.4375,0 a 1.0000999,1.0000999 0 0 0 -0.0937,0 1.0000999,1.0000999 0 0 0 -0.0937,0 z m 1.1875,2 5,0 0,3 3,0 0,8 -8,0 0,-11 z' id='path5003' style='font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1.99999988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans'/>   </g>   <g inkscape:groupmode='layer' id='layer14' inkscape:label='mimetypes' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='layer15' inkscape:label='emblems' style='display:inline' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='g71291' inkscape:label='emotes' style='display:inline' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='g4953' inkscape:label='categories' style='display:inline' transform='translate(-481,-195.00012)'/>   <g inkscape:groupmode='layer' id='layer12' inkscape:label='actions' style='display:inline' transform='translate(-481,-195.00012)'/> </svg> 
+xml version="1.0" encoding="UTF-8"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg id="svg5154" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">  <metadata id="metadata5159">   <rdf:RDF>    <cc:Work rdf:about="">     <dc:format>image/svg+xml</dc:format>     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>     <dc:title/>    </cc:Work>   </rdf:RDF>  </metadata>  <g id="layer1" transform="translate(0 -1036.4)">   <path id="rect4838" d="m4 1041.4v0.5 5.5h8v-6zm1 1h6v4h-6z" style="block-progression:tb;color-rendering:auto;color:#000000;fill:#3d3c37;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;text-decoration-line:none;text-indent:0;text-transform:none"/>  </g> </svg> 
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/el0
+(http://www.inkscape.orgA
+.0" encoding="UTF-8"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg id="svg5154" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">  <metadata id="metadata5159">   <rdf:RDF>    <cc:Work rdf:about="">     <dc:format>image/svg+xml</dc:format>     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>     <dc:title/>    </cc:Work>   </rdf:RDF>  </metadata>  <g id="layer1" transform="translate(0 -1036.4)">   <path id="rect4838" d="m4 1041.4v0.5 5.5h8v-6zm1 1h6v4h-6z" style="block-progression:tb;color-rendering:auto;color:#000000;fill:#3d3c37;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;text-decoration-line:none;text-indent:0;text-transform:none"/>  </g> </svg> 
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+lns:rdf=&apos;http://www.w3.org/1999/02/22-rdf-syntax-ns#&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;16&apos
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http
+http
+http
+http
+http
+--honor-http-proxy
+O^partitionKey=%28https%2Camazon.fr%29,:~1649345029,:https://fls-eu.amazon.fr/1/batch/1/OE/
+jar:file:///usr/lib/firefox/omni.ja!/modules/services-common/kinto-http-client.js
+http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul
+#http://ocsp.rootca1.amazontrust.com0:
+.http://crl.rootca1.amazontrust.com/rootca1.cer0?
+.http://crl.rootca1.amazontrust.com/rootca1.crl0
+lns:rdf=&apos;http://www.w3.org/1999/02/22-rdf-syntax-ns#&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;16&apos
+http://r3.o.lencr.org0"
+http://r3.i.lencr.org/0
+http
+http
+http
+#http://ocsp.rootca1.amazontrust.com0:
+.http://crl.rootca1.amazontrust.com/rootca1.cer0?
+.http://crl.rootca1.amazontrust.com/rootca1.crl0
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/d="ay" name="path_data" direction="in"/>
+"url": "https://micheleg.github.io/dash-to-dock/",
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.orgme="PropertiesChanged">
+                     "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+      http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/Developer/Clients/DBus/ -->
+https://github.com/ubuntu/gnome-shell-extension-appindicator
+     "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http
+https
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.amazon.fr/ls/data.sqlite
+https://www.amazon.fr/deal/318fdbac?showVariations=true&ref=dlx_deals_gd_dcl_img_2_318fdbac_dt_sl6_d6
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.amazon.fr/ls/data.sqlite
+https://www.amazon.fr/deal/318fdbac?showVariations=true&ref=dlx_deals_gd_dcl_img_2_318fdbac_dt_sl6_d6
+https://www.amazon.fr/deal/318fdbac?showVariations=true&ref=dlx_deals_gd_dcl_img_2_318fdbac_dt_sl6_d6
+tlsflags0x00000000:upload.wikimedia.org:443^partitionKey=%28https%2Cwikipedia.org%29
+142.250.181.226~.:~F:443/[^partitionKey=%28https%2Cyoutube.com%29]viaDNS
+2a00:1450:4001:802::2002~.:~F:443/[^partitionKey=%28https%2Cyoutube.com%29]viaDNS
+tlsflags0x00000000:pagead2.googlesyndication.com:443^partitionKey=%28https%2Cyoutube.com%29
+tlsflags0x00000000:www.google.com:443^partitionKey=%28https%2Cyoutube.com%29
+url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E article disambiguation %3C/title%3E %3Cpath d=%22M15 1H5c-1.1 0-2 .9-2 2v6h4.6l3.7-3.7L10 4h4v4l-1.3-1.3L9.4 10l3.3 3.3L14 12v4h-4l1.3-1.3L7.6 11H3v6c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-articleDisambiguation,.mw-ui-icon-articleDisambiguation-invert:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=articleDisambiguation&variant=invert&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E article disambiguation %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M15 1H5c-1.1 0-2 .9-2 2v6h4.6l3.7-3.7L10 4h4v4l-1.3-1.3L9.4 10l3.3 3.3L14 12v4h-4l1.3-1.3L7.6 11H3v6c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-progressive.oo-ui-icon-articleDisambiguation,.mw-ui-icon-articleDisambiguation-progressive:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=articleDisambiguation&variant=progressive&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E article disambiguation %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M15 1H5c-1.1 0-2 .9-2 2v6h4.6l3.7-3.7L10 4h4v4l-1.3-1.3L9.4 10l3.3 3.3L14 12v4h-4l1.3-1.3L7.6 11H3v6c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-icon-articleNotFound,.mw-ui-icon-articleNotFound:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=articleNotFound&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E article not found %3C/title%3E %3Cpath d=%22M15 1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm-4 15H9v-2h2zm2.7-7.6a4.88 4.88 0 0 1-.3.7 2.65 2.65 0 0 1-.5.6l-.5.5a2.65 2.65 0 0 1-.6.5c-.2.2-.3.4-.5.6a1.91 1.91 0 0 0-.3.8 3.4 3.4 0 0 0-.1 1H9.1a4.87 4.87 0 0 1 .1-1.2 2.92 2.92 0 0 1 .2-.9 2.51 2.51 0 0 1 .4-.7l.6-.6a1.76 1.76 0 0 1 .5-.4c.2-.1.3-.3.4-.4l.3-.6a1.7 1.7 0 0 0 .1-.7 2.92 2.92 0 0 0-.2-.9 2.19 2.19 0 0 0-1-.9.9.9 0 0 0-.5-.1 1.68 1.68 0 0 0-1.5.7A2.86 2.86 0 0 0 8 8.1H6.2a5.08 5.08 0 0 1 .3-1.7 3.53 3.53 0 0 1 .8-1.3 3.6 3.6 0 0 1 1.2-.8 5.08 5.08 0 0 1 1.7-.3 5.9 5.9 0 0 1 1.4.2 2.59 2.59 0 0 1 1.1.7 4.44 4.44 0 0 1 .8 1.1 4 4 0 0 1 .3 1.5 3.08 3.08 0 0 1-.1.9z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-articleNotFound,.mw-ui-icon-articleNotFound-invert:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=articleNotFound&variant=invert&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E article not found %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M15 1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm-4 15H9v-2h2zm2.7-7.6a4.88 4.88 0 0 1-.3.7 2.65 2.65 0 0 1-.5.6l-.5.5a2.65 2.65 0 0 1-.6.5c-.2.2-.3.4-.5.6a1.91 1.91 0 0 0-.3.8 3.4 3.4 0 0 0-.1 1H9.1a4.87 4.87 0 0 1 .1-1.2 2.92 2.92 0 0 1 .2-.9 2.51 2.51 0 0 1 .4-.7l.6-.6a1.76 1.76 0 0 1 .5-.4c.2-.1.3-.3.4-.4l.3-.6a1.7 1.7 0 0 0 .1-.7 2.92 2.92 0 0 0-.2-.9 2.19 2.19 0 0 0-1-.9.9.9 0 0 0-.5-.1 1.68 1.68 0 0 0-1.5.7A2.86 2.86 0 0 0 8 8.1H6.2a5.08 5.08 0 0 1 .3-1.7 3.53 3.53 0 0 1 .8-1.3 3.6 3.6 0 0 1 1.2-.8 5.08 5.08 0 0 1 1.7-.3 5.9 5.9 0 0 1 1.4.2 2.59 2.59 0 0 1 1.1.7 4.44 4.44 04
+https://www.youtube.com/api/stats/qoe?fmt=244&afmt=251&cpn=65-SnnRTVciN01pP&el=detailpage&ns=yt&fexp=23858057%2C23983296%2C23986017%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24062268%2C24080738%2C24082662%2C24135310%2C24135692%2C24148482%2C24169726%2C24187024&cl=439688426&seq=7&docid=3Kq1MIfTWCE&ei=0gFPYr2LLdCI6dsPp5OdsAU&event=streamingstats&plid=AAXcEg2Sb2HN8Pur&cbr=Firefox&cbrver=98.0&c=WEB&cver=2.20220405.10.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=114.689:PL&bwm=114.689:601802:0.168&bwe=114.689:3582155&cmt=114.689:35.959&bh=114.689:77.942
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+https://www.videdressing.com/femme/c-c5988.html
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+xml version="1.0" encoding="UTF-8"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg id="svg7384" width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">  <metadata id="metadata90">   <rdf:RDF>    <cc:Work rdf:about="">     <dc:format>image/svg+xml</dc:format>     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>     <dc:title>Gnome Symbolic Icon Theme</dc:title>    </cc:Work>   </rdf:RDF>  </metadata>  <title id="title9167">Gnome Symbolic Icon Theme</title>  <g id="layer10" transform="translate(-221,-467)">   <path id="rect8463" d="m223.5 468c-1.385 0-2.5 1.115-2.5 2.5v8c0 1.385 1.115 2.5 2.5 2.5h11c1.385 0 2.5-1.115 2.5-2.5v-8c0-1.385-1.115-2.5-2.5-2.5zm0 9h11 0.5v1.5c0 0.277-0.223 0.5-0.5 0.5h-11c-0.277 0-0.5-0.223-0.5-0.5v-1.5z" style="fill:#bebebe"/>  </g> </svg> 
+172.217.16.144~.:~F:443/[^partitionKey=%28https%2Cleboncoin.fr%29]viaDNS
+https://fr.wikipedia.org
+ght=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E share %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M12 6V2l7 7-7 7v-4c-5 0-8.5 1.5-11 5l.8-3 .2-.4A12 12 0 0 1 12 6z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-icon-specialPages,.mw-ui-icon-specialPages:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=specialPages&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E special pages %3C/title%3E %3Cpath d=%22M7 0a2 2 0 0 0-2 2h9a2 2 0 0 1 2 2v12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z%22/%3E %3Cpath d=%22M13 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2zm-6.5-3.5.41-1.09L8 15l-1.09-.41-.41-1.09-.41 1.09L5 15l1.09.41.41 1.09zm2.982-.949.952-2.561 2.53-.964-2.53-.964L9.482 8.5l-.952 2.562-2.53.964 2.53.964.952 2.561zM6 10.5l.547-1.453L8 8.5l-1.453-.547L6 6.5l-.547 1.453L4 8.5l1.453.547L6 10.5z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-specialPages,.mw-ui-icon-specialPages-invert:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=specialPages&variant=invert&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E special pages %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M7 0a2 2 0 0 0-2 2h9a2 2 0 0 1 2 2v12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z%22/%3E %3Cpath d=%22M13 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2zm-6.5-3.5.41-1.09L8 15l-1.09-.41-.41-1.09-.41 1.09L5 15l1.09.41.41 1.09zm2.982-.949.952-2.561 2.53-.964-2.53-.964L9.482 8.5l-.952 2.562-2.53.964 2.53.964.952 2.561zM6 10.5l.547-1.453L8 8.5l-1.453-.547L6 6.5l-.547 1.453L4 8.5l1.453.547L6 10.5z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-progressive.oo-ui-icon-specialPages,.mw-ui-icon-specialPages-progressive:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=specialPages&variant=progressive&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E special pages %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M7 0a2 2 0 0 0-2 2h9a2 2 0 0 1 2 2v12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z%22/%3E %3Cpath d=%22M13 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2zm-6.5-3.5.41-1.09L8 15l-1.09-.41-.41-1.09-.41 1.09L5 15l1.09.41.41 1.09zm2.982-.949.952-2.561 2.53-.964-2.53-.964L9.482 8.5l-.952 2.562-2.53.964 2.53.964.952 2.561zM6 10.5l.547-1.453L8 8.5l-1.453-.547L6 6.5l-.547 1.453L4 8.5l1.453.547L6 10.5z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-icon-tag,.mw-ui-icon-tag:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=tag&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E tag %3C/title%3E %3Cpath d=%22M9 1.28A1 1 0 0 0 8.35 1H2a1 1 0 0 0-1 1v6.35a1 1 0 0 0 .28.65L11 18.72a1 1 0 0 0 1.37 0l6.38-6.38a1 1 0 0 0-.03-1.34zM5 7a2 2 0 1 1 2-2 2 2 0 0 1-2 2z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-tag,.mw-ui-icon-tag-invert:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=tag&variant=invert&format=rasterized&lang=fr&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E tag %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M9 1.28A1 1 0 0 0 8.35 1H2a1 1 0 0 0-1 1v6.35a1 1 0 0 0 .28.65L11 18.72a1 1 0 
+http
+http
+http
+.S.......[tlsflags0x00000000]rr1---sn-25glen7y.googlevideo.com:443 <ROUTE-via rr1---sn-25glen7y.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+{"group":"nel","max_age":604800,"endpoints":[{"url":"https://beacons.gcp.gvt2.com/domainreliability/upload-nel"},{"url":"https://beacons.gvt2.com/domainreliability/upload-nel"}]}
+a,:~1649344990,:https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/e3e16f82-fc79-489d-a4ad-ca70f20c35b3
+.S.......[tlsflags0x00000000]rr1---sn-25ge7nsl.googlevideo.com:443 <ROUTE-via rr1---sn-25ge7nsl.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+s=wgF27I3J-WCJ06KRAVzBqY4DEqvzKfRIEm9v6Y4nA-CICgWrtAHT24HEqbzTsyY5tHxHYaVrKY7T_XWvA7jIAyVQgIARw8JQ0qOAzOAz&sp=sig&url=https://rr1---sn-25glen7y.googlevideo.com/videoplayback%3Fexpire%3D1649366649%26ei%3DGQJPYoKKJcyY1gLw8qiwDw%26ip%3D157.159.47.22%26id%3Do-AD493_SfLi5xdJi6q6E1Ysg3ErU9yB-QRZlTdbMJgnXJ%26itag%3D250%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DUy%26mm%3D31%252C29%26mn%3Dsn-25glen7y%252Csn-25ge7nse%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D1%26pl%3D22%26initcwndbps%3D2617500%26spc%3D4ocVCz6s1_0nLD4324HRCy6xdKcE%26vprv%3D1%26mime%3Daudio%252Fwebm%26ns%3DzqA3--HWG6-arOD4NTfddCIG%26gir%3Dyes%26clen%3D28698572%26dur%3D3587.121%26lmt%3D1637352497436544%26mt%3D1649344859%26fvip%3D6%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D5311224%26n%3DFscOC1rAD5oe9DGhr%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C_xAwRQIgB7eZtuOIa0WNzvsaOhulwHXDgGiKaKa-QO6FtEKfvxwCIQCiMwPEehcszYcFaCCjIUXFle3mUHnKSSzg_k40cnabSw%253D%253D
+https://s.youtube.com/api/stats/playback?cl=439198536&docid=SqKN7yOZ7pg&ei=GQJPYtOpJseK6dsPmKS64Ak&fexp=1714247%2C11231064%2C11232695%2C11236632%2C11239792%2C11239892%2C23744176%2C23804281%2C23858057%2C23882502%2C23918597%2C23934970%2C23946420%2C23966208%2C23983296%2C23986017%2C23998056%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24034168%2C24036948%2C24062268%2C24077241%2C24077266%2C24080738%2C24082662%2C24085811%2C24106839%2C24108448%2C24120820%2C24131399%2C24135310%2C24135692%2C24138064%2C24138442%2C24140247%2C24145515%2C24148482%2C24152442%2C24161848%2C24164187%2C24165080%2C24166247%2C24166867%2C24169726%2C24174213%2C24175488%2C24176755%2C24177193%2C24180089%2C24181174%2C24181361%2C24185349%2C24185614%2C24186023%2C24186126%2C24186507%2C24187024%2C24187043%2C24187516%2C24189899%2C24191629%2C39321475%2C39795729&ns=yt&plid=AAXcEhHMPaxTYbTH&el=detailpage&len=3588&of=u8Qs80QX-cEL0j8vbdsOtA&vm=CAQQARgBOjJBS1JhaHdBYzdTamZRY19rYXlZb2tGMVo0aENxcklzRFFxdVZtWDM2TktGZ1pjZUdmUWJMQVBta0tESzlSemhzeGNEQjhBNDBoSm9ERVE0S1NwV29Vd190OC1SR29QdEg5NGVyY1lkLUpjUlRoMGpuYl8xcW5nWEZsOE5OWkpkUw
+s=%3DIXSfsXVl3EU-fDjMthxaoBLggzbsDt3t32qRECF6Gm1AEiA9cpVq-e3deoFcu3qwD4DYUTrcEpW6_lViUnfAZWxgIKAhIgRw8JQ0qOAtOAt&sp=sig&url=https://rr1---sn-25glen7y.googlevideo.com/videoplayback%3Fexpire%3D1649366649%26ei%3DGQJPYoKKJcyY1gLw8qiwDw%26ip%3D157.159.47.22%26id%3Do-AD493_SfLi5xdJi6q6E1Ysg3ErU9yB-QRZlTdbMJgnXJ%26itag%3D251%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DUy%26mm%3D31%252C29%26mn%3Dsn-25glen7y%252Csn-25ge7nse%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D1%26pl%3D22%26initcwndbps%3D2617500%26spc%3D4ocVCz6s1_0nLD4324HRCy6xdKcE%26vprv%3D1%26mime%3Daudio%252Fwebm%26ns%3DzqA3--HWG6-arOD4NTfddCIG%26gir%3Dyes%26clen%3D57114242%26dur%3D3587.121%26lmt%3D1637352497429356%26mt%3D1649344859%26fvip%3D6%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D5311224%26n%3DFscOC1rAD5oe9DGhr%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C 
+.S.......[tlsflags0x00000000]encrypted-tbn3.gstatic.com:443 <ROUTE-via encrypted-tbn3.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://addons.mozilla.org/firefox/addon/wikipedia-context-menu-search/
+https://www.mozilla.org/media/img/firefox/onboarding/mountain.bd39012cc5a9.svg
+https://www.leboncoin.fr/_next/static/media/favicon-16.fe104e12.png
+https://fr.wikipedia.org/wiki/Liste_des_sites_class%C3%A9s_de_l%27Oise
+https://www.mozilla.org/media/img/firefox/onboarding/umbrella.041dbea876c4.png
+https://www.youtube.com/results?search_query=rick+roll+but+it+never+starts
+http://poczta.interia.pl/mh/?mailto=%s
+http://poczta.onet.pl/napisz.html?uri=%s
+https://poczta.interia.pl/mh/?mailto=%s
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0M
++http://crls.pki.goog/gts1c3/QqFxbi9M48c.crl0
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E upload %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z%22/%3E %3Cpath d=%22M10 1 5 7h4v8h2V7h4z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-icon-window,.mw-ui-icon-window:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=window&format=rasterized&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E window %3C/title%3E %3Cpath d=%22M2 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 2h16v12H2z%22/%3E %3Cpath d=%22M4 6h12v2H4z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-window,.mw-ui-icon-window-invert:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=window&variant=invert&format=rasterized&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E window %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M2 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 2h16v12H2z%22/%3E %3Cpath d=%22M4 6h12v2H4z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-progressive.oo-ui-icon-window,.mw-ui-icon-window-progressive:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=window&variant=progressive&format=rasterized&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E window %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M2 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 2h16v12H2z%22/%3E %3Cpath d=%22M4 6h12v2H4z%22/%3E %3C/g%3E%3C/svg%3E\")}"]},null,null);
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+tlsflags0x00000000:cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+.S.......[tlsflags0x00000000]securepubads.g.doubleclick.net:443 <ROUTE-via securepubads.g.doubleclick.net:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+.S.......[tlsflags0x00000000]pagead2.googlesyndication.com:443 <ROUTE-via pagead2.googlesyndication.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/adfinder/v1/owner_listing ^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/profile-picture/v1/users/d431fe70-75e6-4a3c-a03c-2b849d321ee0/picture ^partitionKey=%28https%2Cleboncoin.fr%29
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http
+https
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http
+https
+1http://crl3.digicert.com/DigiCertGlobalRootCA.crl0=
+https://www.digicert.com/CPS0
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0c
++http://crls.pki.goog/gts1c3/QOvJ0N1sT2A.crl0
+http://ocsp.pki.goog/gtsr100
+$http://pki.goog/repo/certs/gtsr1.der04
+#http://crl.pki.goog/gtsr1/gtsr1.crl0W
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+8http://crl.comodoca.com/COMODOCertificationAuthority.crl0
+# https:a
+.S.......[tlsflags0x00000000]encrypted-tbn3.gstatic.com:443 <ROUTE-via encrypted-tbn3.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+org.gnome.system.proxy.https
+http://www.cert.fnmt.es/dpcs/!
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0!
++http://crls.pki.goog/gts1c3/QOvJ0N1sT2A.crl0
+https://www.youtube.com/ptracking?html5=1&video_id=3Kq1MIfTWCE&cpn=65-SnnRTVciN01pP&ei=0gFPYr2LLdCI6dsPp5OdsAU&ptk=youtube_single&oid=u1GcX4H_7_gJdy-Cj4xkJA&ptchn=8butISFwT-Wl7EV0hUK0BQ&pltype=content
+https://www.youtube.com/ptracking?html5=1&video_id=3Kq1MIfTWCE&cpn=65-SnnRTVciN01pP&ei=0gFPYr2LLdCI6dsPp5OdsAU&ptk=youtube_single&oid=u1GcX4H_7_gJdy-Cj4xkJA&ptchn=8butISFwT-Wl7EV0hUK0BQ&pltype=content
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]googleads.g.doubleclick.net:443 <ROUTE-via googleads.g.doubleclick.net:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/users/v1/users/profile/d431fe70-75e6-4a3c-a03c-2b849d321ee0 ^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/autopromo/v1/locations/content ^partitionKey=%28https%2Cleboncoin.fr%29
+nocred https www.leboncoin.fr 443 https://img8.leboncoin.fr/FT_Pub/PixelGamAdview/pixelGamAdviewConfig.json ^partitionKey=%28https%2Cleboncoin.fr%29
+tlsflags0x00000000:6bedb015cb88a993848e1d5865bc1b61.safeframe.googlesyndication.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png
+https:9981794.fls.doubleclick.net:443:9981794.fls.doubleclick.net:443::n:1651937030:h3:y:1649338649:n:^partitionKey=%28https%2Cleboncoin.fr%29:|n:y:
+.SA......[tlsflags0x00000000]fonts.gstatic.com:443 <ROUTE-via fonts.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Blason_ville_fr_ClermontFerrand_%28PuyDome%29.svg/22px-Blason_ville_fr_ClermontFerrand_%28PuyDome%29.svg.png
+.S.......[tlsflags0x00000000]encrypted-tbn3.gstatic.com:443 <ROUTE-via encrypted-tbn3.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+!http://www.quovadisglobal.com/cps
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+/%3Fbn%3D47350487145207LEBONCOIN.FR/B26970152.333404560%3Bdc_trk_aid%3D525231867%3Bdc_trk_cid%3D169714347%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bltd%3Dta%26at_variant%3DV2durl=https://www.vente-unique.com/c/promotions-canape-fauteuil%3Fead-publisher%3DGoogle%26ead-name%3D355517678%26ead-location%3D25319295158%26ead-creative%3D373358866244%26ead-creativetype%3D1x1%26gclid%3DEAIaIQobChMI2OiD_aCC9wIVgqF3Ch1YpQMzEAEYASAAEgLYO_D_BwE
+next%3Dhttps%253A%252F
+N3BoRuUv_vQHliv6jNMnn217rzdU7yP2OCfH&sai=AMfl-YTyecqh4ovS16GpR6xOL4E--YlkaVoDc5e-oGoCp_1MosUN1kzsz9X1lLztBuH7pym4WYZVTaagOJHTkwv_bBBC4Qh8UjyGmBHDoV9GIGyewOiib1BPYiWfOIXbskTn&sig=Cg0ArKJSzLcgrIq3b3dPEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://e-immobilier.credit-agricole.fr/simulca/%3FORI%3Dleboncoinvign%26at_medium%3Daffiliate%26at_campaign%3D3%26at_type%3Dpartenariat%26at_identifier%3Dleboncoin%26at_format%3Dvignettetest%26at_creation%3Dciblage_sans_data%26at_variant%3DV2
+l=https://www.vente-unique.com/c/promotions-canape-fauteuil%3Fead-publisher%3DGoogle%26ead-name%3D355517678%26ead-location%3D25319295158%26ead-creative%3D373358866244%26ead-creativetype%3D1x1%26gclid%3DEAIaIQobChMI2OiD_aCC9wIVgqF3Ch1YpQMzEAEYASAAEgLYO_D_BwE
+v46i0REdTYQbzDTKwKJLPsFehQF_-hY7GjWixmlyMA&sai=AMfl-YSdTXAAtiKJRcs298rYwo7suJAWlkjewtt4QgPyy5Yk6Zmx25r0nygunjbRZ2522uGz_ax9PZEXlPDjKFdUhPq0WmYpmNsCdBsBtSbjE3432E5o4qOJUnCBgp-ysx0D&sig=Cg0ArKJSzFb6CGdhyoirEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/trackclk/N33104.145207LEBONCOIN.FR/B26970152.333404560%3Bdc_trk_aid%3D525231867%3Bdc_trk_cid%3D169714347%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bltd%3D
+3475817105&nb=0&adurl=https://www.vente-unique.com/c/promotions-canape-fauteuil%3Fead-publisher%3DGoogle%26ead-name%3D355517678%26ead-location%3D25319295158%26ead-creative%3D373358866244%26ead-creativetype%3D1x1%26gclid%3DEAIaIQobChMI2OiD_aCC9wIVg
+accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dfr%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC8butISFwT-Wl7EV0hUK0BQ%26feature%3Div%26continue_action%3DQUFFLUhqbEVNeW5oNXNoaHdrODdoOUd0X3RxdVZURkdSd3xBQ3Jtc0ttaGMxbnA1aV95TVYxYVZaU0xtQVpITnNGNHY1VEVxc2tPYWJUSU1WODY0eWF3RFFaT1dranRSM2ZjUm4yLU1sYl8zZko0c0R6UnFDS3NUVHAzcFdTM2F6bDBDRklNUnpmMXRBd3k5UjNELVhCWmRSdFdiZTNRaS1mMTRRM3l6WmZfa2V2eFcyZHdlY3ZtLUNoclc5UnJHR0hNSGtqcGJLR0V3d2(
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Icone_botanique01.png/26px-Icone_botanique01.png
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/35px-Flag_of_Poland.svg.png
+https://fr.wikipedia.org/wiki/Ann%C3%A9es_1860
+https://fr.wikipedia.org/wiki/Ann%C3%A9es_1870
+https://fr.wikipedia.org/wiki/Ann%C3%A9es_1880
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/ls/data.sqlite
+https:443MediaWikiModuleStore:frwiki
+https:443MediaWikiModuleStore:frwiki
+ikiw.rf.:https:443
+iw.rf.:https:443
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+tlsflags0x00000000:ct.pinterest.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+tlsflags0x00000000:cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+.S.......[tlsflags0x00000000]securepubads.g.doubleclick.net:443 <ROUTE-via securepubads.g.doubleclick.net:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+.S.......[tlsflags0x00000000]pagead2.googlesyndication.com:443 <ROUTE-via pagead2.googlesyndication.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/adfinder/v1/owner_listing ^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/profile-picture/v1/users/d431fe70-75e6-4a3c-a03c-2b849d321ee0/picture ^partitionKey=%28https%2Cleboncoin.fr%29
+cred https www.leboncoin.fr 443 https://api.leboncoin.fr/api/autopromo/v1/locations/content ^partitionKey=%28https%2Cleboncoin.fr%29
+nocred https www.leboncoin.fr 443 https://img8.leboncoin.fr/FT_Pub/PixelGamAdview/pixelGamAdviewConfig.json ^partitionKey=%28https%2Cleboncoin.fr%29
+);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E upload %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z%22/%3E %3Cpath d=%22M10 1 5 7h4v8h2V7h4z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-icon-window,.mw-ui-icon-window:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-content&image=window&format=rasterized&skin=vector-2022&version=b67jy);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E window %3C/title%3E %3Cpath d=%22M2 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 2h16v12H2z%22/%3E %3Cpath d=%22M4 6h12v2H4z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-w
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++fr.wikipedia.org/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++fr.wikipedia.org/ls/data.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++fr.wikipedia.org/ls/data.sqlite-wal
+https://static.doubleclick.net/
+https://www.google.com/
+https://www.youtube.com/
+https://fonts.googleapis.com/
+https://api.leboncoin.fr/api/csp-report/v1/report/
+https://fonts.gstatic.com/
+https://api.leboncoin.fr/api/csp-report/v1/report/
+http
+http
+http
+http
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.google.com/ls/data.sqlite
+O^partitionKey=%28https%2Cyoutube.com%29,::https://r5---sn-25glen7l.googlevideo.com/generate_204
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/1518-ced3a7ff8dc0647a.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://cdn.ampproject.org/rtv/012203150226000/v0/amp-ad-exit-0.1.mjs
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://connect.facebook.net/en_US/fbevents.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/4638-6bda0f2f6d0bc63a.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://cdn.ampproject.org/rtv/012203150226000/v0/amp-form-0.1.mjs
+anon:tlsflags0x00000000:fonts.gstatic.com:443^partitionKey=%28https%2Cyoutube.com%29
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.google.com/adsense/search/ads.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://cdn.ampproject.org/rtv/012203150226000/amp4ads-v0.mjs
+O^partitionKey=%28https%2Cyoutube.com%29,::https://r5---sn-25glen7l.googlevideo.com/generate_204?conn2
+https://www.youtube.com
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.googletagmanager.com/gtag/js?id=AW-766292687&l=dataLayer&cx=c
+require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.googletagmanager.com/gtag/js?id=AW-744431185&l=dataLayer&cx=c
+https://www.googletagmanager.com/gtag/js?id=AW-766292687
+https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.325.js?utv=ut4.39.202203290847
+https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.328.js?utv=ut4.39.202203290847
+https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.335.js?utv=ut4.39.202203290847
+173.194.30.39~.:~.:443/[^partitionKey=%28https%2Cyoutube.com%29]viaDNS
+2a00:1450:4020:1f::7~.:~.:443/[^partitionKey=%28https%2Cyoutube.com%29]viaDNS
+https://hg.mozilla.org/releases/mozilla-release/rev/cc23a50fcf60e8f94b168659870d765dc502ea56
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+      http://git.0pointer.de/?p=reserve.git;a=blob;f=reserve.txt -->
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+/usr/lib/gvfs/gvfsd-http
+http
+http
+http
+http
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.google.com/ls/data.sqlite
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/9265-14472c643602b585.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/9386-d55b1fc3.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://static.criteo.net/js/px.js?ch=2
+www.amazon.fr^partitionKey=%28http%2Camazon.fr%29:HSTS
+O^partitionKey=%28https%2Camazon.fr%29,::https://www.amazon.fr/rd/uedata?at&v=0.224715.0&id=Q2EW8K4YWF59TXC0ZG7J&m=1&sc=csa:startVL&pc=4356&at=4356&t=1649345005265&bfnt=1&nrbf=0&bft=1&csmtags=startVL&pty=DealLandingPage&spty=OctopusDLPV3&pti=undefined&tid=Q2EW8K4YWF59TXC0ZG7J&aftb=1
+http://r3.o.lencr.org0"
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+                      "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+delete this.webChannelMessageUrlParams.ui,Object.assign(this.webChannelMessageUrlParams,this.connectionParams),this.channel=new mA(this.pathPrefix,{httpSessionIdParam:"gsessionid",messageHeaders:this.webChannelMessageHeaders,messageUrlParams:this.webChannelMessageUrlParams}),this.channel.open(),this.JSC$42613_channelState=2,xQb(this))};
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite?cache=private&directoryLockId=63
+.S.......[tlsflags0x00000000]www.google.com:443 <ROUTE-via www.google.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+{"group":"youtube_main","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/youtube_main"}]}
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.43.js?utv=ut4.39.201702140833
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.27.js?utv=ut4.39.202203290814
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.207.js?utv=ut4.39.202103221308
+O^partitionKey=%28https%2Cyoutube.com%29,::https://www.youtube.com/s/desktop/5ca7430b/jsbin/intersection-observer.min.vflset/intersection-observer.min.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/chunks/pages/index-29f12b337eab815c.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/_next/static/Av-zXOPBCPcKpNEx05-yK/_middlewareManifest.js
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://tags.tiqcdn.com/utag/schibsted/leboncoin-responsive/prod/utag.94.js?utv=ut4.39.201810111222
+https://www.amazon.fr/deals?deals-widget=%257B%2522presetId%2522:%2522deals-collection-computing-and-software%2522%257D&pf_rd_r=H5RS4C7A7P4GJPSQCPES&pf_rd_p=5d54c0c9-cd03-4ae1-b53b-9d1875a3be80&pd_rd_r=f9072bdb-5096-419b-8c86-ab6df16f3d7e&pd_rd_w=AEeaD&pd_rd_wg=D6Nlf&ref_=pd_gw_unk
+https://www.leboncoin.fr/_next/static/chunks/6558-ae069b25a7022b10.js
+https://www.leboncoin.fr/_next/static/chunks/6066-69db956e71a0a8ad.js
+https://www.leboncoin.fr/_next/static/css/166d82e22d97a578.css
+https://www.leboncoin.fr/_next/static/chunks/7457-00e8a38219a08dc3.js
+https://www.leboncoin.fr/_next/static/media/slick.653a4cbb.woff
+https://www.leboncoin.fr/_next/static/chunks/3742-a6087ad951f71338.js
+https://www.leboncoin.fr/_next/static/chunks/4005-8fa836813ff428fd.js
+https://cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html
+https://cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html
+https://www.leboncoin.fr/_next/static/chunks/main-43d4223daa152ad5.js
+https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f4/1b/37f41b5f0cc64d2a9bad5ec75489621fa3556677.jpg?rule=ad-thumb
+https://www.leboncoin.fr/_next/static/chunks/pages/_app-5ee732cbeee8382a.js
+https://www.leboncoin.fr/_next/static/chunks/4402-247e39a4eb3454df.js
+https://www.leboncoin.fr/_next/static/chunks/6157-51cca41013db4431.js
+https://www.leboncoin.fr/_next/static/chunks/4402-247e39a4eb3454df.js
+https://www.leboncoin.fr/_next/static/chunks/2931-ca828915441f5f0e.js
+https://www.leboncoin.fr/_next/static/chunks/2647-fe9e26d548140fac.js
+https://www.leboncoin.fr/_next/static/chunks/1173-ffbfea64a80b487c.js
+https://www.leboncoin.fr/_next/static/chunks/2647-fe9e26d548140fac.js
+https://www.leboncoin.fr/_next/static/chunks/pages/ClassifiedAd-ed318133816f9450.js
+https://www.leboncoin.fr/_next/static/Av-zXOPBCPcKpNEx05-yK/_buildManifest.js
+https://www.leboncoin.fr/_next/static/chunks/pages/ClassifiedAd-ed318133816f9450.js
+https://dashboard.snapcraft.io/site_media/appmedia/2017/07/quadrapassel.svg.png
+Upstream Project: http://mars-game.sourceforge.net/
+snapcraft.yaml Build Definition: https://github.com/diddlesnaps/M.A.R.S./blob/master/snap/snapcraft.yaml
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2
+https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2
+https:www.googletagservices.com:443:www.googletagservices.com:443::n:1651937022:h3:y:1649341107:n:^partitionKey=%28https%2Cleboncoin.fr%29:|n:y:
+https://www.googleadservices.com/pagead/aclk?sa=L&ai=CwY1u9QFPYpiaEYLD3gPYyo6YA62am41psLa6s6AKh_iTwRQQASDt4fEcYPux_YKICqABsO2M7APIAQmpAght91njR7I-4AIAqAMByAMKqgSBAk_Q4IajHLygRaewmM-AA3XvorjW4Q5_W5xUPumsz4Zj9TcKhz1q4e3cayFZJ5plvr3inM9ephi9h57VTDb_jaD076ryEbVswbLeLYV0sc3RAi59Wf8O-fWAh5zxnvH28ey-_jxQyD7MxGEhJuGFLDSslROSpJ2WD_ZphNHGwVx8fBACYlSPsIoK9bGXqjGJ_Wso6lZ8-igZRJwTSOthhEgVW8dMEUrvf2p8DTly-kxYBoFHWB1jCSdNBUAmVWe3-3xiaLoyVl5JxRjbQKgqAIzZn9Akb3wAbieyCcMOhAGyLtHCXpSu5zLMMuLYVGEXMiLlBN8q1Sz9lyH2Umn8WmaUwAS2kZepXuAEAaAGLoAHuJLzE6gHjs4bqAeT2BuoB-6WsQKoB_6esQKoB6SjsQKoB9XJG6gHpr4bqAfz0RuoB5bYG6gHqpuxAqgH35-xAtgHANIICQiI4YAQEAEYHbEJQYGLAjJFLryACgOYCwHICwGADAG4DAG4E4gn2BMCiBQD0BUB-BYBgBcB&ae=1&num=1&cid=CAASKORo_TuBKlNJQlFzL-br0lypvXg59dnogwqC1KUIfMm90WaHyemULsw&sig=AOD64_2zQRiDIBKT-0bhl8VPwH14l_bC6Q&client=ca-pub-1204413475817105&nb=7&adurl=https://www.vente-unique.com/c/promotions-canape-fauteuil%3Fead-publisher%3DGoogle%26ead-name%3D355517678%26ead-location%3D25319295158%26ead-creative%3D373358866244%26ead-creativetype%3D1x1%26gclid%3DEAIaIQobChMI2OiD_aCC9wIVgqF3Ch1YpQMzEAEYASAAEgLYO_D_BwE
+?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v
+3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%
+http://ocsp.usertrust.com0
+https://www.youtube.com/api/stats/playback?ns=yt&el=detailpage&cpn=65-SnnRTVciN01pP&ver=2&cmt=0.084&fmt=244&fs=0&rt=78.833&euri&lact=330&cl=439688426&mos=0&volume=100&cbr=Firefox&cbrver=98.0&c=WEB&cver=2.20220405.10.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&hl=fr_FR&cr=FR&len=53473.301&fexp=23858057%2C23983296%2C23986017%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24062268%2C24080738%2C24082662%2C24135310%2C24135692%2C24148482%2C24169726%2C24187024&rtn=83&afmt=251&muted=0&docid=3Kq1MIfTWCE&ei=0gFPYr2LLdCI6dsPp5OdsAU&plid=AAXcEg2Sb2HN8Pur&of=CpPAP_Wn0kw3rTbJeCpZaA&vm=CAEQARgEOjJBS1JhaHdDSGRWbU16ektZMEZKSjYxUjh2OUtjT0dmU1JRSGlfcmlPMTQxaWJqbGRLQWJPQVBta0tESnB4aXR2REJldFhOazVTWTFlRjJJdmlpd1FqYVRUb1l3Z2E2eTV4LU1qNk9DSG5hNFpQdGNxdFAyVG8yZFNHaWRSQ2duOGdwYw
+https://www.leboncoin.fr/ameublement/2142851475.htm
+networking.http3_enabled
+http://r3.o.lencr.org0"
+http://r3.i.lencr.org/0>
+http://cps.letsencrypt.org0
+/http://apps.identrust.com/roots/dstrootcax3.p7c0
+"http://cps.root-x1.letsencrypt.org0<
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0#
++http://crls.pki.goog/gts1c3/moVDfISia2k.crl0
+https://dashboard.snapcraft.io/site_media/appmedia/2017/02/shotcut-logo-256x256_1.png
+https://dashboard.snapcraft.io/site_media/appmedia/2021/01/Pinta_icon.png
+Stop by and learn more at: https://slack.com/
+http://x1.i.lencr.org/0'
+http://x1.c.lencr.org/0"
+http://r3.o.lencr.org0"
+http://r3.i.lencr.org/0>
+http://cps.letsencrypt.org0
+See https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle for support details.
+Note: The software will initially act as a demo, allowing access to three cars and one track environment only. To access the other content, you will need to buy a license upgrade. S1, S2 and S3 licenses can be purchased from https://bit.ly/1S0Qy9e
+Support me: https://bit.ly/2XkT2bl
+See https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle for support details.
+https://dashboard.snapcraft.io/site_media/appmedia/2018/09/Powershell_black.ico.png
+Microsoft Services Agreement - https://go.microsoft.com/fwlink/?linkid=2097426
+Upstream Project: https://www.openra.net/
+snapcraft.yaml Build Definition: https://github.com/diddlesnaps/openra/blob/master/snap/snapcraft.yaml
+http://x1.i.lencr.org/
+For known issues with the Snap install: https://github.com/keepassxreboot/keepassxc/issues?q=is%3Aissue+is%3Aopen+label%3A%22distribution%3A+Snap%22+
+https://dashboard.snapcraft.io/site_media/appmedia/2017/04/discord.png
+Upstream Project: https://www.gimp.org/
+snapcraft.yaml Build Definition: https://github.com/snapcrafters/gimp/blob/master/snap/snapcraft.yaml
+Upstream Project: https://www.gimp.org/
+snapcraft.yaml Build Definition: https://github.com/snapcrafters/gimp/blob/master/snap/snapcraft.yaml
+https://spocs.getpocket.com/user
+https://incoming.telemetry.mozilla.org/submit
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/idb/2943709102LCo7g%sCD7a%t0afb2a5s.sqlite-shm
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://www.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=4JbcJoCXc-e0LC9u&ver=2&cmt=82.193&fmt=244&fs=0&rt=84.903&euri&lact=76531&cl=439688426&state=playing&volume=100&cbr=Firefox&cbrver=98.0&c=WEB&cver=2.20220405.10.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&hl=fr_FR&cr=FR&len=3587.121&rtn=124&afmt=251&idpj=-3&ldpj=-29&rti=84&st=42.062&et=82.193&muted=0&vis=3&docid=SqKN7yOZ7pg&ei=GQJPYtOpJseK6dsPmKS64Ak&plid=AAXcEhHMPaxTYbTH&of=u8Qs80QX-cEL0j8vbdsOtA&vm=CAQQARgBOjJBS1JhaHdBYzdTamZRY19rYXlZb2tGMVo0aENxcklzRFFxdVZtWDM2TktGZ1pjZUdmUWJMQVBta0tESzlSemhzeGNEQjhBNDBoSm9ERVE0S1NwV29Vd190OC1SR29QdEg5NGVyY1lkLUpjUlRoMGpuYl8xcW5nWEZsOE5OWkpkUw
+https://www.youtube.com/api/stats/qoe?fmt=244&afmt=251&cpn=65-SnnRTVciN01pP&el=detailpage&ns=yt&fexp=23858057%2C23983296%2C23986017%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24062268%2C24080738%2C24082662%2C24135310%2C24135692%2C24148482%2C24169726%2C24187024&cl=439688426&seq=8&docid=3Kq1MIfTWCE&ei=0gFPYr2LLdCI6dsPp5OdsAU&event=streamingstats&plid=AAXcEg2Sb2HN8Pur&cbr=Firefox&cbrver=98.0&c=WEB&cver=2.20220405.10.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=144.690:PL&bwm=144.690:2653780:0.361&bwe=144.690:3582155&cmt=144.690:65.938&bh=144.690:94.305
+xml version="1.0" encoding="UTF-8"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg id="svg5154" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://w
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-shm
+g.h.zt (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9431:15)
+EP (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:5026:11)
+g.h.yd (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9484:15)
+g.h.yd (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9315:15)
+g.h.yd (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:7311:15)
+g.h.qf (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9673:15)
+https://images-eu.ssl-images-amazon.com/images/G/08/javascripts/lib/popover/images/snake._CB485935558_.gif
+https://images-eu.ssl-images-amazon.com/images/G/08/gno/sprites/timeline_sprite_1x._CB439968151_.png
+org.ksnip.ksnip"],"website":"https://github.com/ksnip/ksnip","media":[{"type":"icon","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_141154.png","width":128,"height":128},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/12/uEarQdP.png","width":1414,"height":978},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_560325_full.jpeg","width":855,"height":628},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/12/ksnip_20201213-210237.png","width":1315,"height":892},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_264004_full.jpeg","width":1259,"height":867},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/06/sticker_settings.png","width":826,"height":579}]}
+{"id":"cq81GqilUCx64PTWfq1QdFoaCGJMUonT","title":"ksnip","summary":"Qt based cross-platform screenshot tool that provides many annotation features for your screenshots.","description":"* Supports Linux (X11, Plasma Wayland, GNOME Wayland and xdg-desktop-portal Wayland), Windows and macOS.\n* Screenshot of a custom rectangular area that can be drawn with mouse cursor.\n* Screenshot of last selected rectangular area without selecting again.\n* Screenshot of the screen/monitor where the mouse cursor is currently located.\n* Screenshot of full-screen, including all screens/monitors.\n* Screenshot of window that currently has focus.\n* Screenshot of window under mouse cursor.\n* Screenshot with or without mouse cursor.\n* Capture mouse cursor as annotation item that can be moved and deleted.\n* Customizable capture delay for all capture options.\n* Upload screenshots directly to imgur.com in anonymous or user mode.\n* Upload screenshots via custom user defined scripts.\n* Command-line support, for capturing screenshots and saving to default location, filename and format.\n* Filename wildcards for Year ($Y), Month ($M), Day ($D), Time ($T) and Counter (multiple # characters for number with zero-leading padding).\n* Print screenshot or save it to PDF/PS.\n* Annotate screenshots with pen, marker, rectangles, ellipses, texts and other tools.\n* Annotate screenshots with stickers and add custom stickers.\n* Obfuscate image regions with blur and pixelate.\n* Add effects to image (Drop Shadow, Grayscale or Border).\n* Add watermarks to captured images.\n* Global hotkeys for capturing screenshots (currently only for Windows and X11).\n* Tabs for screenshots and images.\n* Open existing images via dialog, drag-and-drop or paste from clipboard.\n* Run as single instance application (secondary instances send cli parameter to primary instance).\n* Pin screenshots in frameless windows that stay atop other windows.\n* Many configuration options.","download-size":3039232,"icon":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_141154.png","name":"ksnip","publisher":{"id":"OnnTAjj81mL4YdThnwJXANjNaUbGxbnr","username":"dporobic","display-name":"Damir Porobic","validation":"unproven"},"store-url":"https://snapcraft.io/ksnip","developer":"dporobic","status":"available","type":"app","base":"core18","version":"1.9.2","channel":"stable","ignore-validation":false,"revision":"407","confinement":"strict","private":false,"devmode":false,"jailmode":false,"contact":"mailto:damir.porobic@gmx.com","license":"GPL-2.0+","common-ids":["org.ksnip.ksnip"],"website":"https://github.com/ksnip/ksnip","media":[{"type":"icon","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_141154.png","width":128,"height":128},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/12/uEarQdP.png","width":1414,"height":978},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_560325_full.jpeg","width":855,"height":628},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/12/ksnip_20201213-210237.png","width":1315,"height":892},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/ksnip_264004_full.jpeg","width":1259,"height":867},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/06/sticker_settings.png","width":826,"height":579}]}
+{"id":"oQi5445Bw83J591pCgmPm8lCBNkvrL0w","title":"MakeMKV","summary":"Backup your DVD and Bluray discs","description":"MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere. MakeMKV is a format converter, otherwise called \"transcoder\". It converts the video clips from proprietary (and usually encrypted) disc into a set of MKV files, preserving most information but not changing it in any way. The MKV format can store multiple video/audio tracks with all meta-information and preserve chapters. There are many players that can play MKV files nearly on all platforms, and there are tools to convert MKV files to many formats, including DVD and Blu-ray discs.\n\nAdditionally MakeMKV can instantly stream decrypted video without intermediate conversion to wide range of players, so you may watch Blu-ray and DVD discs with your favorite player on your favorite OS or on your favorite device.\n\n- Reads DVD and Blu-ray discs\n- Reads Blu-ray discs protected with latest versions of AACS and BD+\n- Preserves all video and audio tracks, including HD audio\n- Preserves chapters information\n- Preserves all meta-information (track language, audio type)\n- Fast conversion - converts as fast as your drive can read data.\n- No additional software is required for conversion or decryption.\n- Available for Windows, Mac OS X and Linux\n- Functionality to open DVD discs is free and will always stay free.\n- All features (including Blu-ray decryption and processing) are free during BETA.\n\n--\n\n- Upstream Project: https://www.makemkv.com/\n- snapcraft.yaml Build Definition: https://github.com/diddlesnaps/makemkv/blob/master/snap/snapcraft.yaml","download-size":327102464,"icon":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/makemkv.png","name":"makemkv","publisher":{"id":"oew2TZOpQF0lGd3JKNZydA2BCn1Z66FO","username":"diddledani","display-name":"Daniel Llewellyn","validation":"unproven"},"store-url":"https://snapcraft.io/makemkv","developer":"diddledani","status":"available","type":"app","base":"core20","version":"1.16.5","channel":"stable","ignore-validation":false,"revision":"432","confinement":"strict","private":false,"devmode":false,"jailmode":false,"contact":"https://github.com/diddlesnaps/makemkv/issues","license":"Proprietary","website":"https://makemkv.com/","media":[{"type":"banner","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/makemkv-banner.png","width":1920,"height":640},{"type":"icon","url":"https://dashboard.snapcraft.io/site_media/appmedia/2020/03/makemkv.png","width":256,"height":256},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/Screenshot_at_2019-09-16_15-20-39.png","width":1198,"height":1352},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/Screenshot_at_2019-09-16_15-22-22.png","width":1198,"height":1352},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/Screenshot_at_2019-09-16_15-23-19.png","width":1198,"height":1352},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/Screenshot_at_2019-09-16_15-23-44.png","width":1198,"height":1352},{"type":"screenshot","url":"https://dashboard.snapcraft.io/site_media/appmedia/2019/09/Screenshot_at_2019-09-16_15-27-20.png","width":1198,"height":1352}]}
+https://wiki.ubuntu.com/Apport
+http://hal.freedesktop.org/docs/PolicyKit/
+http://hal.freedesktop.org/docs/PolicyKit/
+http://snapcraft.io
+http://launchpad.net/aptdaemon/
+http://launchpad.net/aptdaemon/
+http-on-before-connect
+https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4vaVIGxA.woff2
+https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVIGxA.woff2
+https://fonts.gstatic.com/s/opensans/v28/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVI.woff2
+Be sure to join our discord: https://discord.gg/openosrs
+http://launchpad.net/aptdaemon/
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/ls/data.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/ls/data.sqlite-wal
+dth=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E subtract %3C/title%3E %3Cpath d=%22M4 9h12v2H4z%22/%3E %3C/svg%3E\")}.oo-ui-image-invert.oo-ui-icon-subtract,.mw-ui-icon-subtract-invert:before{background-image:url(/w/load.php?modules=oojs-ui-core.icons&image=subtract&variant=invert&format=rasterized&skin=vector-2022&version=11tto);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E subtract %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M4 9h12v2H4z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-progressive.oo-ui-icon-subtract,.mw-ui-icon-subtract-progressive:before{background-image:url(/w/load.php?modules=oojs-ui-core.icons&image=subtract&variant=progressive&format=rasterized&skin=vector-2022&version=11tto);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E subtract %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M4 9h12v2H4z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-destructive.oo-ui-icon-subtract,.mw-ui-icon-subtract-destructive:before{background-image:url(/w/load.php?modules=oojs-ui-core.icons&image=subtract&variant=destructive&format=rasterized&skin=vector-2022&version=11tto);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E subtract %3C/title%3E%3Cg fill=%22%23d33%22%3E %3Cpath d=%22M4 9h12v2H4z%22/%3E %3C/g%3E%3C/svg%3E\")}"]},null,null);
+gc2a);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E new window %3C/title%3E%3Cg fill=%22%23fff%22%3E %3Cpath d=%22M17 17H3V3h5V1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5h-2z%22/%3E %3Cpath d=%22m11 1 3.3 3.3L8.6 10l1.4 1.4 5.7-5.7L19 9V1z%22/%3E %3C/g%3E%3C/svg%3E\")}.oo-ui-image-progressive.oo-ui-icon-newWindow,.mw-ui-icon-newWindow-progressive:before{background-image:url(/w/load.php?modules=oojs-ui.styles.icons-interactions&image=newWindow&variant=progressive&format=rasterized&lang=fr&skin=vector-2022&version=1gc2a);background-image:linear-gradient(transparent,transparent),url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3E new window %3C/title%3E%3Cg fill=%22%2336c%22%3E %3Cpath d=%22M17 17H3V3h5H
+https://i.ytimg.com/vi/u2UPHRnLDx0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD_h6xdbKZy-Ff-l8JbUKIiMMj00w
+.S.......[tlsflags0x00000000]www.google.com:443 <ROUTE-via www.google.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+http/1.1
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-shm
+Find a bug or want to request a feature? Open an issue here https://github.com/Mitchel
+ui,ri="https://www.googletagmanager.com/a?id="+Gh.F+"&cv=1",yi={label:Gh.F+" Container",children:[{label:"Initialization",children:[]}]},ni=pi(),bi={},ci="",di="",ki="",li="",hi="",ji=[],ii="",Rh={},Qh=!1,Nh={},zi={},mi="",ai=void 0,oi={},ei={},Zh=void 0,Ai=5;0<si.ih&&(Ai=si.ih);var fi=function(a,b){for(var c=0,d=[],e=0;e<a;++e)d.push(0);return{Yi:function(){return c<a?!1:A()-d[c%a]<b},tj:function(){var f=c++%a;d[f]=A()}}}(Ai,1E3),gi=1E3,Ci=function(a,b){if(xi&&!ei[a]&&ai!==a){Wh();ai=a;
+https://dashboard.snapcraft.io/site_media/appmedia/2018/03/shattered-pixel-dungeon.png
+https://dashboard.snapcraft.io/site_media/appmedia/2016/07/livetuner.png
+fd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:89:3211
+R@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:89:3394
+Ai@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:160:565
+mj.prototype.Ha@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:170:1707
+Uj/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:181:424
+wh/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:150:476
+Bc.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:83:282
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+ag.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:124:115
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+n.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:66:223
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+ac.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:597
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+n.Jc@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:115:177
+n.Kd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:115:94
+n.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:114:838
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+Bc.prototype.$@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:84:171
+mc.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:2221
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+ac.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:597
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+n.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:66:223
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+ac.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:597
+n.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:65:853
+ac.prototype.l@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:597
+http://www.freedesktop.org/wiki/Software/systemd
+http://www.freedesktop.org/wiki/ModemManager
+http://www.freedesktop.org/wiki/ModemManager
+http://www.freedesktop.org/wiki/Software/systemd
+http://www.freedesktop.org/wiki/Software/systemd
+https://www.google.com/search?channel=fs&client=ubuntu&q=linux+memory+extractor+GITHUB
+https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=98.0&pver=2.2
+https://faq.dailymotion.com/hc/fr/requests/new?ticket_form_id=48277&report_id=null#new-request
+:https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2022-04-30-18-52-33.chain
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+34.120.243.233~A:~F:443/[^partitionKey=%28https%2Cleboncoin.fr%29]viaDNS
+.S.......[tlsflags0x00000000]aax-eu.amazon-adsystem.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+tlsflags0x00000000:cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com:443^partitionKey=%28https%2Cleboncoin.fr%29
+https://identity.mozilla.com/ids/ecosystem_telemetry
+https://support.mozilla.org/kb/update-firefox-latest-release
+function CPb(a){return sPb.includes(a)?a:"https://www.google.com/tools/feedback"}
+http://ocsp.pki.goog/gsr10)
+http://pki.goog/gsr1/gsr1.crt02
+!http://crl.pki.goog/gsr1/gsr1.crl0;
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/fonts/opensans-regular-webfont.woff2
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://www.leboncoin.fr/fonts/opensans-bold-webfont.woff2
+172.217.18.112~.:~F:443/[^partitionKey=%28https%2Cleboncoin.fr%29]viaDNS
+https://fr.wikipedia.org/wiki/Kildare_County_Football_Club
+https://www.youtube.com/s/desktop/5ca7430b/img/favicon.ico
+https://www.leboncoin.fr/ameublement/2142851475.htm
+https://www.leboncoin.fr/ameublement/2142851475.htm
+https://www.leboncoin.fr/annonces/offres/aquitaine
+https://www.leboncoin.fr/ameublement/2142851475.htm
+he:!!h.data.cucai,ge:!!h.data.cgab};e("adIconUrl")&&(a.Pd=e("adIconWidth"),a.Kd=e("adIconHeight"),a.Ld=e("adIconSpacingAbove"),a.Nd=e("adIconSpacingBefore"),a.Md=e("adIconSpacingAfter"),a.Od=e("adIconSpacingBelow"));"relatedsearch"==g&&(a.type="relatedsearch",a.pe=e("columnSpacing"),a.Fe=e("horizontalFlow"),a.Ee=e("horizontalAlignment"));g=ag(a);b.appendChild(Zf(g))};var dg=/^((https?):)?\/\/afs.googleusercontent.com\//;function eg(a,b,c){if(dg.test(b))for("http:"==b.substring(0,5)&&c?b="https:"+b.substring(5):"//"==b.substring(0,2)&&(b=(c?"https:":"")+b),c=0;c<a.length;c++)a[c].adIconUrl=b}eg=x(eg,"aiIID");function fg(){};function gg(a,b){a.addEventListener("mouseup",function(c){2!==c.button&&b(c)})};function hg(a){var b="https"==window.location.protocol;a=a.clicktrackUrl;return Qa().data.ct&&va(a)?Ya(a,function(c){return!(0==c.indexOf("http:")&&b)}):[]}
+  // "https://hg.mozilla.org/mozilla-central/rev/6256ec9113c1")
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+{"group":"botguard-scs","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/botguard-scs"}]}
+.S.......[tlsflags0x00000000]www.google.com:443 <ROUTE-via www.google.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://i.ytimg.com/vi/_wavO7-Oo0Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCMDdKxYd8VeAw_vL82UAsyYYWaHw
+https://www.google.com/search?channel=fs&client=ubuntu&q=dailymotion
+https://www.youtube.com/results?search_query=hacker+tutorial+step+by+step
+https://addons.mozilla.org/fr/firefox/addon/english-gb-language-pack/
+https://www.amazon.fr/?tag=admarketpla00-21&ref=pd_sl_a5C869DDFE3F3D31501BAACF71https://fr.wikipedia.org/wiki/Liste_des_sites_class%C3%A9s_de_l%27Oise
+https://fr.wikipedia.org/wiki/Innovative_Concepts_in_Entertainment
+https://www.youtube.com/results?search_query=never+gonna+give+you+up+rickroll
+https://addons.mozilla.org/fr/firefox/addon/english-gb-language-pack/reviews/
+https://addons.mozilla.org/fr/firefox/addon/english-gb-language-pack/versions/
+https://www.nike.com/fr/?cp=19040524063_search_1649151077401100003
+https://www.amazon.fr/?tag=admarketpla00-21&ref=pd_sl_a0D01DCB0AA12FE5AFDB29015Dhttps://www.google.com/search?channel=fs&client=ubuntu&q=youtube+hacker+video
+https://www.youtube.com/results?search_query=rick+roll+but+it+never+starts
+https://fr.wikipedia.org/wiki/Publius_Licinius_Crassus_(consul_en_-171)
+https://addons.mozilla.org/fr/firefox/addon/english-ca-language-pack/reviews/
+https://addons.mozilla.org/fr/firefox/addon/english-ca-language-pack/
+https://addons.mozilla.org/fr/developers/addon/fran%C3%A7ais-language-pack/edit
+https://addons.mozilla.org/fr/firefox/addon/fran%C3%A7ais-language-pack/
+https://www.leboncoin.fr/ameublement/2142851475.htm line 6 > injectedScript
+https://addons.mozilla.org/fr/developers/addon/english-ca-language-pack/edit
+https://addons.mozilla.org/fr/firefox/addon/fran%C3%A7ais-language-pack/reviews/https://addons.mozilla.org/fr/firefox/addon/english-ca-language-pack/versions/
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/ls/data.sqlite
+https://480df4a3a94336868a7ec8f770b37342.safeframe.googlesyndication.com
+https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914
+g.r (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:39:12)
+gc (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:157:11)
+hc (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:161:11)
+g.h.yd (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:7210:15)
+g.h.N (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:7258:498)
+g.h.oe (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9602:15)
+g.aL (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:5066:13)
+g.h.V (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:9530:14)
+g.h.V (https://www.youtube.com/s/player/689586e2/player_ias.vflset/fr_FR/base.js:8097:14)
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0
++http://crls.pki.goog/gts1c3/moVDfISia2k.crl0
+tlsflags0x00000000:cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com:443^partitionKey=%28https%2Cleboncoin.fr%29@cc2e0fc7d6c5441f01fd97000b13550d.safeframe.googlesyndication.com
+/http://crl3.digicert.com/DigiCertGlobalCAG2.crl05
+/http://crl4.digicert.com/DigiCertGlobalCAG2.crl0>
+http://www.digicert.com/CPS0t
+http://ocsp.digicert.com0>
+2http://cacerts.digicert.com/DigiCertGlobalCAG2.crt0
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-shm
+:https://tr.snapchat.com/cm/i?pid=96ea3166-4c8f-4775-b9bd-2a7e4b8fd4d8
+https://tr.snapchat.com/cm/i?pid=96ea3166-4c8f-4775-b9bd-2a7e4b8fd4d8
+:https://tr.snapchat.com/cm/i?pid=96ea3166-4c8f-4775-b9bd-2a7e4b8fd4d8
+https://tr.snapchat.com/cm/i?pid=96ea3166-4c8f-4775-b9bd-2a7e4b8fd4d8
+^partitionKey=%28https%2Cleboncoin.fr%29
+^partitionKey=%28https%2Cleboncoin.fr%29
+https://connect.facebook.net/en_US/fbevents.js
+^partitionKey=%28https%2Cleboncoin.fr%29
+https://tags.tiqcdn.com/
+https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f4/1b/37f41b5f0cc64d2a9bad5ec75489621fa3556677.jpg?rule=classified-1200x800-webp
+https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f4/1b/37f41b5f0cc64d2a9bad5ec75489621fa3556677.jpg?rule=classified-1200x800-webp
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/cache/caches.sqlite-wal
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+http://ocsp.pki.goog/gsr10)
+http://ocsp.pki.goog/gsr10)
+http://pki.goog/gsr1/gsr1.crt02
+!http://crl.pki.goog/gsr1/gsr1.crl0;
+y (https://www.google.com/js/th/s8EGneP7UUmAImXFT6e4tOuRTySRdivgljXd2wrnOoY.js line 1 > eval line 1276 > eval line 1 > eval line 1 > eval:1:12)
+X (https://www.google.com/js/th/s8EGneP7UUmAImXFT6e4tOuRTySRdivgljXd2wrnOoY.js line 1 > eval line 1276 > eval line 1 > eval line 1 > eval:1:72)
+https://www.google.com/js/th/s8EGneP7UUmAImXFT6e4tOuRTySRdivgljXd2wrnOoY.js line 1 > eval line 1276 > eval line 1 > eval line 1 > eval:1:10
+https://www.google.com/js/th/s8EGneP7UUmAImXFT6e4tOuRTySRdivgljXd2wrnOoY.js line 1 > eval line 1276 > eval line 1 > eval line 1 > eval:1:10
+http://r3.o.lencr.org0"
+http://r3.i.lencr.org/0.
+http://cps.letsencrypt.org0
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++fr.wikipedia.org/ls/data.sqlite
+https://fr.wikipedia.org^partitionKey=%28https%2Cwikipedia.org%29
+https://wikipedia.org^partitionKey=%28https%2Cwikipedia.org%29
+https://fr.wikipedia.org
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++fr.wikipedia.org/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.google.com/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.google.com/ls/data.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.google.com/ls/data.sqlite-wal
+https://www.leboncoin.fr/ameublement/2142851475.htm
+https://fwupd.org/
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.amazon.fr/ls/data.sqlite
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.amazon.fr/ls/data.sqlite-journal
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.amazon.fr/ls/data.sqlite-wal
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/ArrowRightNavbox.svg/12px-ArrowRightNavbox.svg.png
+.S.......[tlsflags0x00000000]rr1---sn-25glen7y.googlevideo.com:443 <ROUTE-via rr1---sn-25glen7y.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://fr.wikipedia.org/w/load.php?lang=fr&modules=jquery&skin=vector-2022&version=bh3lo
+O^partitionKey=%28https%2Cwikipedia.org%29,::https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kit_shorts.svg/100px-Kit_shorts.svg.png
+.S.......[tlsflags0x00000000]rr1---sn-25glen7y.googlevideo.com:443 <ROUTE-via rr1---sn-25glen7y.googlevideo.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://sdk.privacy-center.org/sdk.d91402342a528fba54e6c9c1dab9d52d817ee392.js
+.SA......[tlsflags0x00000000]fonts.gstatic.com:443 <ROUTE-via fonts.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+.S.......[tlsflags0x00000000]www.youtube.com:443 <ROUTE-via www.youtube.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+https://www.google.com/pagead/lvz?evtid=AKB78cha6z6qX_AGMNoFlBW-JVMtm4iNbnllAfI4KoUTfE0zkXII7vIc9vDb--swaDIyAF-_KdSHrVSR-t90Ugu4ODKyMZqSxQ&req_ts=1649345050&pg=MainAppBootstrap%3AWatch&az=1&sigh=AKFpyYXnfqPI9VFXGQ-w7kZuURVb0ygCHQ
+.SA......[tlsflags0x00000000]fonts.gstatic.com:443 <ROUTE-via fonts.gstatic.com:443> {NPN-TOKEN h3}^partitionKey=%28https%2Cyoutube.com%29
+http://ocsp.pki.goog/gts1c301
+%http://pki.goog/repo/certs/gts1c3.der0!
++http://crls.pki.goog/gts1c3/QOvJ0N1sT2A.crl0
+     http://www.apache.org/licenses/LICENSE-2.0
+f.setupConversionTracking=function(){if(!this.scriptsAppended){var a=document.createElement("script");var b=Wd(dLb[0]);a.textContent=ae(b);de(a);document.head.appendChild(a);a=document.createElement("noscript");a.textContent="<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TGBSZFB\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>";document.body.prepend(a);this.scriptsAppended=!0}};
+RW.prototype.dataChanged=function(){if(this.data){var a=this.hasBannerArt;this.hasBannerArt=!1;if(this.data&&this.data.banner){var b=IF(this.data.banner.thumbnails,this.clientWidth);b&&(0===b.indexOf("//")&&(b="https:"+b),this.hasBannerArt=!0,this.updateStyles({"--ytd-interactive-tabbed-header-renderer-banner-url":"url("+b+")"}))}this.hasBannerArt!==a&&this.$.header.fire("iron-resize")}};
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/idb/2943709102LCo7g%sCD7a%t0afb2a5s.sqlite
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.youtube.com/idb/2943709102LCo7g%sCD7a%t0afb2a5s.sqlite-wal
+https://www.leboncoin.fr
+^partitionKey=%28https%2Cleboncoin.fr%29
+http://ocsp.digicert.com0{
+1http://crl3.digicert.com/DigiCertGlobalRootCA.crl07
+1http://crl4.digicert.com/DigiCertGlobalRootCA.crl0=
+https://www.digicert.com/CPS0
+https://www.amazon.fr
+https://amazon.fr
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https
+https://KKKKKKKKP
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f4/1b/37f41b5f0cc64d2a9bad5ec75489621fa3556677.jpg?rule=ad-thumb
+O^partitionKey=%28https%2Cleboncoin.fr%29,::https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f4/1b/37f41b5f0cc64d2a9bad5ec75489621fa3556677.jpg?rule=classified-1200x800-webp
+Environment="CRASH_DB_URL=https://daisy.ubuntu.com"
+https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.leboncoin.fr&gdpr=1&gdpr_consent=CPW80EAPW80EAAHABBENCJCgAP_AAHLAAAAAIAtB_G_dTyPi-f59YvtwYQ1P4VQnoyACjgaNgwwJiRLBMI0EgmAIKAHqAAACIBAEICJAAQBlCAHAAAAA4IEAASMMAAAAIBAIIgCAAEAAAmJICABZC5AAAQAQgkwAABQAgAICABMgSDAAAAAAFAAAAAgAAAAAAAAAAAAAQAAAAAAAAggCACYalxAA2JY4EkgaVAgARhAEAUAIAKKAIWCCAgJEAAgjAAUQAgAAAoAAAAAACAgBgAAAAEACEAAAADggEABAAgAAAAgAAgAAAAAQAAAYAAAAAABAAAAAAEABAAABQCAAAIAEABIEAAQAAAEAAAAAAAAAEAgAAAAAAAAAAAAAAACAGKAAwABBFQYABgACCKhAADAAEEVA.f_gADlgAAAAA#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22IMCKbV9zWjclMkJyRDglMkZ3VE9UWXhpZ0hPUFhudXlOQ3lmZ2hydmkya1hrblhFQnBhTDZJY0V3dk9Rc0UwU3FHQWg0T2NZaEZPUENEZ053Z1YwSnpha25QbFVmMHBOOVBpRE5mMGRZUEJmZ0QxUWM3ZHl5dVJhaEdJb0ZXZjFMekEzQTBZR3NqaHVObEJSV0VuYSUyQnpHZkdPJTJGNG9XUSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22leboncoin.fr%22,%22topUrl%22:%22www.leboncoin.fr%22,%22version%22:122,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.38534509195983435%22}
+link[rel~="stylesheet"]:not([href^="https\:\/\/cdn\.ampproject\.org"])
+nocred https www.youtube.com 443 https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT ^partitionKey=%28https%2Cyoutube.com%29
+{Qe=Function.prototype.toString,Function.prototype.toString=function(){for(var e=[],t=0;t<arguments.length;t++)e[t]=arguments[t];var n=this.__sentry_original__||this;return Qe.apply(n,e)}},e.id="FunctionToString",e}(),et=[/^Script error\.?$/,/^Javascript error: Script error\.? on line 0$/],tt=function(){function e(t){void 0===t&&(t={}),this._options=t,this.name=e.id}return e.prototype.setupOnce=function(){Ie((function(t){var n=Me();if(!n)return t;var r=n.getIntegration(e);if(r){var i=n.getClient(),o=i?i.getOptions():{},a="function"==typeof r._mergeOptions?r._mergeOptions(o):{};return"function"!=typeof r._shouldDropEvent?t:r._shouldDropEvent(t,a)?null:t}return t}))},e.prototype._shouldDropEvent=function(e,t){return this._isSentryError(e,t)?(z.warn("Event dropped due to being internal Sentry Error.\nEvent: "+U(e)),!0):this._isIgnoredError(e,t)?(z.warn("Event dropped due to being matched by `ignoreErrors` option.\nEvent: "+U(e)),!0):this._isDeniedUrl(e,t)?(z.warn("Event dropped due to being matched by `denyUrls` option.\nEvent: "+U(e)+".\nUrl: "+this._getEventFilterUrl(e)),!0):!this._isAllowedUrl(e,t)&&(z.warn("Event dropped due to not being matched by `allowUrls` option.\nEvent: "+U(e)+".\nUrl: "+this._getEventFilterUrl(e)),!0)},e.prototype._isSentryError=function(e,t){if(!t.ignoreInternal)return!1;try{return e&&e.exception&&e.exception.values&&e.exception.values[0]&&"SentryError"===e.exception.values[0].type||!1}catch(e){return!1}},e.prototype._isIgnoredError=function(e,t){return!(!t.ignoreErrors||!t.ignoreErrors.length)&&this._getPossibleEventMessages(e).some((function(e){return t.ignoreErrors.some((function(t){return j(e,t)}))}))},e.prototype._isDeniedUrl=function(e,t){if(!t.denyUrls||!t.denyUrls.length)return!1;var n=this._getEventFilterUrl(e);return!!n&&t.denyUrls.some((function(e){return j(n,e)}))},e.prototype._isAllowedUrl=function(e,t){if(!t.allowUrls||!t.allowUrls.length)return!0;var n=this._getEventFilterUrl(e);return!n||t.allowUrls.some((function(e){return j(n,e)}))},e.prototype._mergeOptions=function(e){return void 0===e&&(e={}),{allowUrls:h(this._options.whitelistUrls||[],this._options.allowUrls||[],e.whitelistUrls||[],e.allowUrls||[]),denyUrls:h(this._options.blacklistUrls||[],this._options.denyUrls||[],e.blacklistUrls||[],e.denyUrls||[]),ignoreErrors:h(this._options.ignoreErrors||[],e.ignoreErrors||[],et),ignoreInternal:void 0===this._options.ignoreInternal||this._options.ignoreInternal}},e.prototype._getPossibleEventMessages=function(e){if(e.message)return[e.message];if(e.exception)try{var t=e.exception.values&&e.exception.values[0]||{},n=t.type,r=void 0===n?"":n,i=t.value,o=void 0===i?"":i;return[""+o,r+": "+o]}catch(t){return z.error("Cannot extract message for event "+U(e)),[]}return[]},e.prototype._getLastValidUrl=function(e){var t;void 0===e&&(e=[]);for(var n=e.length-1;n>=0;n--){var r=e[n];if("<anonymous>"!==(null===(t=r)||void 0===t?void 0:t.filename))return r.filename||null}return null},e.prototype._getEventFilterUrl=function(e){try{if(e.stacktrace){var t=e.stacktrace.frames;return this._getLastValidUrl(t)}if(e.exception){var n=e.exception.values&&e.exception.values[0].stacktrace&&e.exception.values[0].stacktrace.frames;return this._getLastValidUrl(n)}return null}catch(t){return z.error("Cannot extract url for event "+U(e)),null}},e.id="InboundFilters",e}(),nt=/^\s*at (?:(.*?) ?\()?((?:file|https?|blob|chrome-extension|address|native|eval|webpack|<anonymous>|[-a-z]+:|.*bundle|\/).*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,rt=/^\s*(.*?)(?:\((.*?)\))?(?:^|@)?((?:file|https?|blob|chrome|webpack|resource|moz-extension|capacitor).*?:\/.*?|\[native code\]|[^@]*(?:bundle|\d+\.js)|\/[\w\-. /=]+)(?::(\d+))?(?::(\d+))?\s*$/i,it=/^\s*at (?:((?:\[object object\])?.+) )?\(?((?:file|ms-appx|https?|webpack|blob):.*?):(\d+)(?::(\d+))?\)?\s*$/i,ot=/(\S+) line (\d+)(?: > eval line \d+)* > eval/i,at=/\((\S*)(?::(\d+))(?::(\d+))\)/,ct=/Minified React error #\d+;/i;function st(e){var t=null,n=0;e&&("number"==typeof e.framesToPop?n=e.framesToPop:ct.test(e.message)&&(n=1));try{if(t=function(e){if(!e||!e.stacktrace)return null;for
+/home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.leboncoin.fr/ls/data.sqlite
+file:///home/superadmin/.mozilla/firefox/i8pklixw.default-release/storage/default/https+++www.leboncoin.fr/ls/data.sqlite
+https://www.youtube.com/api/stats/qoe?fmt=244&afmt=251&cpn=65-SnnRTVciN01pP&el=detailpage&ns=yt&fexp=23858057%2C23983296%2C23986017%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24062268%2C24080738%2C24082662%2C24135310%2C24135692%2C24148482%2C24169726%2C24187024&cl=439688426&seq=7&docid=3Kq1MIfTWCE&ei=0gFPYr2LLdCI6dsPp5OdsAU&event=streamingstats&plid=AAXcEg2Sb2HN8Pur&cbr=Firefox&cbrver=98.0&c=WEB&cver=2.20220405.10.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=114.689:PL&bwm=114.689:601802:0.168&bwe=114.689:3582155&cmt=114.689:35.959&bh=114.689:77.942
+https://fr.wikipedia.org/wiki/Alejandro_Foxley
