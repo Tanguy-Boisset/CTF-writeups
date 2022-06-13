@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 10.3</compiler>
+      <library name='libext2fs' version='1.46.5'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-2.0.6'/>
+      <library name='libntfs' version='libntfs-3g'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.16.0-kali7-amd64</os_release>
+      <os_version>#1 SMP PREEMPT Debian 5.16.18-1kali1 (2022-04-01)</os_version>
+      <host>Tanguy-Kali</host>
+      <arch>x86_64</arch>
+      <uid>1000</uid>
+      <start_time>2022-05-16T21:51:40+0200</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>floppy.img</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>1474560</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='1474560'/>
+      </byte_runs>
+      <block_size>512</block_size>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000270.jpg</filename>
+    <filesize>11983</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='138240' len='12288'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000459.fat</filename>
+    <filesize>512</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='235008' len='512'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000460.fat</filename>
+    <filesize>512</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='235520' len='512'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000461.fat</filename>
+    <filesize>512</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='236032' len='512'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000462.ini</filename>
+    <filesize>64</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='236544' len='512'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000463.ini</filename>
+    <filesize>63</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='237056' len='512'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

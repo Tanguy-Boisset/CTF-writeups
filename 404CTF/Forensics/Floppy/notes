@@ -1,0 +1,15 @@
+On strings le fichier et on trouve un fichier supprimé :
+
+[Trash Info]
+Path=IMG_0003.jpg
+DeletionDate=2022-05-07T05:02:38
+
+On lance photorec :
+$ photorec floppy.img 
+PhotoRec 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+
+Il suffit de suivre les instructions pour récupérer la photo supprimée.
+
+404CTF{@v3z_v0vz_z0rt1_135_p0ub3ll35}
