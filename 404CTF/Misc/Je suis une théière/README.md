@@ -1,11 +1,13 @@
 Je suis une théière
-995
+
 Le travail que vous avez fourni jusqu'à maintenant est remarquable, surtout pour une nouvelle recrue ! Une pause café ne vous ferait pas de mal. Je ne vous propose pas de thé : j'ai égaré ma théière par erreur sur un site web... Si jamais vous la retrouvez, faites-moi chauffer de l'eau et je vous récompenserai, foi de CSS117 !
 
 Format du flag : 404CTF{chaîne de caractères trouvée en leet}
 
+=============================================================
 
-La première étape est de trouver le challenge. L'url https://theiere.404ctf.fr/ nous donne une page de challenge !
+La première étape est de trouver le challenge. L'url https://theiere.404ctf.fr/ nous donne une page de challenge !\
+Retrospectivement, n'importe quel préfixe fonctionne.
 
 On a un mini-jeu :
 
