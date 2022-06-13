@@ -1,0 +1,21 @@
+
+f = open('Cable.txt', 'r').read()
+
+mesures = f.split(' ')
+
+# Test 1 : 1 -> 1 et -1 -> 0 :
+test1 = ['0' if x == '-1' else '1' for x in mesures]
+rslt1 = ''.join(test1)
+#print(rslt1)
+
+# Test 2 : 1 si changement de front, 0 sinon
+test2 = []
+for i in range(len(mesures)-1):
+    if mesures[i] == mesures[i+1]:
+        test2.append('0')
+    else:
+        test2.append('1')
+rslt2 = ''.join(test2)
+print(rslt2)
+# >>> 00110100001100000011010001000011010101000100011001111011010011100011000001101110001100110101111101010010001100110111010001010101011100100110111001011111010110100011001101110010001100000101111101001001011011100101011000110011011100100111010001000101011001000101111101100110001100000111001000110011011101100011001101110010011111011
+# Décodé : 404CTF{N0n3_R3tUrn_Z3r0_InV3rtEd_f0r3v3r}
