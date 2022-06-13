@@ -1,5 +1,3 @@
-La fonte des hashs
-998
 Nos experts ont réussi à intercepter un message de Hallebarde : 18f2048f7d4de5caabd2d0a3d23f4015af8033d46736a2e2d747b777a4d4d205
 
 Malheureusement il est haché ! L'équipe de rétro-ingénierie vous a laissé cette note :
