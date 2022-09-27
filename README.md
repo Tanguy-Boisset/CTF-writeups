@@ -3,8 +3,8 @@ Writeups de différents CTF auquels j'ai pu participer
 
 ## Historique
 ### CTF :
-Root Me : 4600 pts / TOP 1000\
-TryHackMe : TOP 3%
+Root Me : 5100 pts / TOP 850\
+TryHackMe : TOP 1%
 
 ### Concours individuels : 
 DG'hAck 2021 : 60 / 900 en classement général - 26 / 600 en classement étudiant\
