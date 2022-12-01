@@ -1,0 +1,7 @@
+Next steps for developers:
+- Improve firewall filtering
+- Buy more coffee
+- Implement real database
+- Work on frontend
+- Change admin password and add login form
+- Planify security audit
