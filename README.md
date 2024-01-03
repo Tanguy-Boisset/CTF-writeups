@@ -3,7 +3,7 @@ Writeups de différents CTF auquels j'ai pu participer
 
 ## Historique
 ### CTF :
-Root Me : 5400 pts / TOP 800\
+Root Me : 5800+ pts / TOP 800\
 TryHackMe : TOP 1%
 
 ### Concours individuels : 
